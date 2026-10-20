@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- WebCraft Brand & Favicon -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,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">
+  <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAA3uUlEQVR4nI29d5wlR3nv/a3q7hMmh52dzUmrTQq7SighIRCyCEJgITCZD2CijQQ4geEGMHAxvL6ki7Ev3IuJIoMSSoCyUFqlzTnP7uzkeFJ31ftHV1VXnxn5fVuaPae7q6urnvB7fvV0dR3Rt3i1FqT/IXCbEOk/9rgQmO/mGCDSQoBIy3sVpOeyT/t9znHhanOXi9zxpu9ZCWwVOv8PWqfntAaNzp8zBbTWL3KtdmXsvr3LnPrsPiq9zpY1x7XOrss+zf1N3TLrpG4Skum0k4t3jLzwmSP8dL9Z+HkJk6/P/xTevb32uDpFJvzcZtstjIxc03RWpLmslRgCV0p7LWu6Ud4Ums4Jv38C0VSFq8ozQuk3xt0djWiSlTDH57kvfr3CE4LXsrm3yTVMOGEJ39p1k9Jsx5wG8kpPldXULuGXN0eNN+fuj/btIlOGV9scpQvt9Ve49mcymc9K/HuCTO+Wv51/WXbKO6qb9z016Vwhe9RrcwZhtlrt6rdYJzLLt4rx/8v1y9YnMkP3oc6V8QU914qz8gI5n7A9WTg4bvJf7e+57niem5NaWlr61m7P+uqYY1GuO/7NUuux2JtW0tRJa7HN3qOzrghz85zQmqDP9wJr8RlCZYrwr2oGEb+++W20GbKa65lPO7jO6xcrk+u/84C5N51zWbOC5hiQ8O+fddyTTv6SzCK0FVwOUeY2/j9pHXME2rzjwZP1Atfu3AXk4WdOM/KGkFOLjfr+ZZ7HvEi3fAV4bjXHXeaID19izTfUQmftcn9Z47XnrDm5G9fPjDkvmLkY7DfDE4R/wjtnUT4jBzq7l98v0QwwWeyz3GkuaHukwyrZ3iUXOvMoIJt6kTuvRb5wDsvyLcx/6vw1iOZ46hf0Gp3zMK89OSbkNzKvvqwq4SFe3ox8JuLX6VcnXAclLiZll5E3QntsrrlnXzMqm5mBFwNyEnPaMjd19Yq8ezqqlh6cQzmb3CLTvndOiNS6RF5MPoT54GL3syDoMRfywm7yq9z+fFhgWyn0fGCXuZ/OXePFinlYWS4oz7lv2o8cBOXcZp5m+AHSH6zM1zmh8ZRky2pjDBaUjJfpZiI2Hwkk5zD+XVPLFvMCg/vuW3veBrDCyMGeNm3W1kCdijIDyd2p+ZjvSc3Ky0qFvuXmN+1u5/Wi6UZzr3XwN29gna/J3nVN1p/dRXiemelBI9M9LTK4EdloGMfKtGuS1sIIVri6EHp+izOemY5wTWm/qBd4tTGsXNl8ZaQmkkErGsKsgBV4VtziYqakZoF7w/kcZM3jGZ4JO8vwhG4HSxlD8u0sa7QwXcjY/Pz8SKBNLNGePLRRkMIBiM6LS1jvdvcxx3Iu2nxPfxAn0Fq5sZLQzX6ZiUMDobvF3KFvs8enTbMc1I/0nktrNEJIa5SuU+7TuLnFZemipaeIHLhk5TWGYXlQaHfm2pvPV7Qz1ryAU4VoqwRLIx3e5z0jhUzmHtOmbF6TeYi27RbklOl5QPOmQcjsO9ITvj1md0QGWFaeTivCKMMIWQiEkLa0uz5PgT3VCV8JrmcefJjTxvXdv04AGQNJr1GZgK2VOs/QRui58ErmJnnpW4Vaz3QSEZ7HzGlHBkYgCOeiMU5wtjvuhqKpZC5+aHed67AWRoep0HNJNXvMKcZTis+KvDGJVZP2qbC5tRY4dxdG6QgNKlOWRiGQqTyEsrV5wnTVmTP5wKNzscKasy+0/w/8z8KI28K5uJ7V46rT2QApDw/mu9YuGZXrgXOHVLhpqkIidP64E77pkNAZDDhleTDm55ZyMUdIrBWnyhAGk40ShBW+AG0DuDZekX6mdqRdGY3yep1ZLjAX37UTh2mPyDRrgn8z2wvxKswEa2tqNnlfutmdMkcQuX+FrcPar7V4pPueBVxh8kIyL27tKyJfe3OuP8Na0y6t3Dlt4QWN1jLd03ZfoExgtrFNubSCzQPnw/ScwKqbv/hy9OTjtQ8gzORphd0c7cW8u1kgE1hGYt3fYr02ApZmRJkKNxW+FBksWfxPz4NsjhE2eNoUgYfh8wrDikwA2jIeY+FOEQoEKDQKhVSgEKAT0iy9QuGSF4BAe3A2/9YEQw7BPL9p8pow07o56Q+7fZixVTuLNFlU4WncQYf5LqXpjHCCF0IipURrRRJX0RqkiJAicKpMyPLsfkv8jvoGADSpQTtb0iYIaq1BKGf1iphEJwgglAFSBKCVUY3xU5GqAcvtBSnFbFaBFbS9H17QdZDn+FhOSaELJPaJWM7KTQdzvc8ak99EPgXhLFuaP4EUAUonNBo1SoUOujtW0dXWT1upiygsIEVKS0MZECEJhCAUAaEUhEIipSAQAqklNsTYQZrWxmYVaKVJtEIrhdKaRCkSlaSfOkYrTSOpMVWbZHhmkNOzJ5luTBKKMPU+nXoG1hB0HoAU2Vgkx3CsMdrDMEd2QmSPKAFE/5I1KRlrpntCZB30YMIKX/ifkFqwsMcCg/Ge1QtJI6nSVu5lef9mOsodJHGVpDGDimugNQGSSEZEIiQSIaEMCc1nJEMCJIEIkEISEHh8HdAplCilUTohUQmKhEQrYhV7fw1iHaMFhDIiFEUCHTFZn2LvxA7Gq8MUgiJaa5RWaG3qIUm9x3hTjq46BdloYcsZM3axxqjBe97sxgGOuOSeqticTxYm5qjVwo6wHiONCaQsx+43khpL+s5hQcdypmcGODS8k9psBdVQoFIFhzogJCQQ5k8LAiGRpAKXBOl3c0wgUiF5HddGEQlJiu5apfs6FWKqlAQlEhKhkQVBudRCb3kRm7suZKB6gv2TOwgIjZFJpFZopIkKJtL5WJ6Ltxb789EiHz2y72LhkjXaWTwin661wbHJE7TzGFNC2kfL0mCpzL4bxaxdchlxo8LgyHbiWoJUoRFm4IJySHosFEbYIg3LoU49KA3nqTrynp0xHYVCG6FrtKeANNwmpDCkdOodiTKKihLCKGRF23rCQgsvjD0Bhr4qnYBWKGJi6wFeki4/A8IK2fcUu59GH7TAUl6Zp0r5qRMumHlBT+fKe15gAi1ukksa+5Mk5syFlzIxcYKjA09Sn43RiWFHUuahztqJ57KpRZPSQrefoEXGLKQUTvgKhRIZ61GeIFJBKWtWCCEIAomQAh1DvdJgz+gzjE4OsKX9ErIxgDW+AEukc7LwBOLONaW1ncJyo2mNzNzFWn6e1eSryTh7qnztcDjj7xnnbzQqrOnewuj4UU6N7oKkkJY0HmMDnSZtl4egmfW4Y6k4EYJQFNHVgCCOCOMSuhoSiIITsLV6ZQUvFFpo4xNZvb6ybTo7SAocm97L6YmjbChvpq5qxqsFQkukloYse0NCywznyMs3VCMn4RcUJgaY0Zq2MxY8rp+NOi1bMiKzqVoyupqOmFP4qccVFreugUbMwPhOikE7CkUoQiN8CKwonBBAqZQWBgRIp+fUFgMhIQlIaoLLNl1Aa7FMQMBsrcKDO55CFwNkCEo1UsYvUpEn2vqCcn3JYAPXS4FEEVPQRY5U9rCJ81gWreJ44wgREYrYN0ELGv+J5D3K7hmWf1xaC8susu6jsKlfd4GXC8mG6x6Dsg6oFREF+qNlHBp9gUi2pPxZaJQRCkJ7zTIBXEuWlhfTUi0jqhKqAUEtJNQRBVkkUbCgrZt3v+wNvHfZDSxs9NA2VeLPei7nXZe/gZVdy6lUNRAihEgpqIsGBgI8ModMoSUTSdqWRCcURIH9sztZymIiFWEBT1uwzeXBPPm4WkQOzpv1Yy+fJxXhzNw8E7bYbCzc4pg/FNAWdtLG1ZMqK4prGZ0eoKorFEVLbmyhhDbMAjQB6QSngGq1ynmr1/OWd93AM3/awaGhwxypHefU+DAjE+Os71nD25e9kXBvCy+MnmCgY5jZWoWxww16+9t4/cpr2N97mLsPPcRYY5RiGKZ3FCrrjxZIGRgYSYh1jIrrNmJhpyYKLZllluHKIMsKy9hf30cpLJOY/vtxzteB/erzH5e6zz28MV6/cPEq7Q+i3JhT4OVuHNv3BlumCVIaehggDEevx1XOabmAPZPPU5cNc86kHUSA8OilJEi/C0moA5hS/NO7/55rN1/NkfvGqVQrjJQG2af2cWL6BCcODzF7OqYr6aFamKKn2E17oZvlK8uMD9YoBi30dLbxyOhWnhjbCmgiKVHodKyiSoh6CaEiVJxQERPIcpWamqGuq2hDV9GaWMQUkgKb2s7lmfozRGERjUIbFpXGGu3ySNncUC/SGEPLhJ+V01oj+hav0pYRzJ3LieHyNjZkgGQzmGkKIXB0UmlFiRJrog1snXyEYlR23mFzQtL7T4iU1wdIpA4I4wAmYr5981dYv2oTz951nPHnoae3lWhVzFTvCKcZ4NjsYY6OH2ViYJqZ03VWFBbR1tbO4dODlIIyF/ZtQpYFvx95kIPThyiHJcK4k55oGSuXrqCjs4X+ZV3E9YRf3vtrJvQJlKjTSKqGrKbAVYsrXFi+mP16PxVZQwppqGuCFkkWX3xa6ll4XuD+OEEbBSxapbM5lZkX2LGB8w4yBQnrCZbHk+ZSJJJaUmVhsJgOuthReYZy2JbV6Z56pRYvyfh9JKI0oFamkNWAtR2r+PZbvkJHqZed1RO88NAwlcPQVS4TtQjCBQHlVdDommQ2HObAkf388dEnecWSi9kxdoThyhRryytY37maYTHE48PP09Pez6dvfh8rlixFCknH4pDv/+ZRxh4c5bbj32eoOoyQDepJDcuZZtUMZ0ebmZbTnFSnKAZFYp2gRIwlvokdDPqCdx6RHyP49FRrnc2K8LVjdenyHH6k9/6a0hyAIFEJRYrMxlOOMWUNsZzcC4saQhESq4TpxgznLDib1yy+gcOjw3z8js/QmFT0Dy3h0itW03GRZrs+wr7ZEXYfGeLxewZ45hdVdv26wF9ueSdvvOZqnhrZzuXLzmdxax9jepa9sycZHdcsbF/K3938DpbvX83p32pO/0mz54VhvnPLfRw5uYiPXPQxWsMys9U6gUjT1UqnrKmiZilRQqkEoWlKmJPR8pzwrdANJJk0Ru5xJ25aikc13a7PjXw+7stboP3maI1WCVIHxLrhjoFGK29AZOKRNCPe6eo0PYVu3nbmO9jccSXH60PEpQaPH9rBN7b9K0QhQy9EnFFez+YtKxlpHWJvdYjTpRonxQRDpQEaJ2u8q+/trNq8jP+78zeEUcjytn5iAnYl23nTG19J+2Nnsm3HGCeTaYZG4eCho/RPr6a/2MWy6Uv4t+u+yYb+M6jHsWFqaV/rqoHQEqUSgxI+lfLll2ejGSw1H8sOh01ns4jtb95DE21IkHQU1LKilGGkdDKbzK4tayJj27bdtUaVlrCNq1dfx/LiWo6MHiPRp1nWt4Bqcg5RFPLrrb9nUbiS9cXrGRkdpagXc8GZbezu3sXWfXuZnIp5+aZFNIpFdrwwznvO/CCDaz/P6GCFamGSF8Yf59PvuYmWbZt54MAgfcsCGpOKM3vhsace5Nmx20mKj7D3SAtnhxu4ZPUW9gzvTQeJLnWtzXOUNNjmnthpsFNclKWqTvBGliItY1PjnsCtAuahoR4zzj0CzJUVTrj5XIg019pciMY+frTKDWTIipbVnLfoKioNxZOjW+kul+kQHUyqOt29C5ianEBVBF94/HN8/uJl1NR6iqUpahMRRdayeW2B+3fdRW/PWk4OS07oCkN/irl+0/v53viXOTg6xgeuexfx7nMYmx1D9mkOjzco1UJ6JkfZuvdZNDX+NPQg1YEKv9iT0FJuob21zQlbW6PUrpPGszMvMJkdI6xmxu9hSVNWFANnGeY3BQxXgYF/pTMFuKZ48/0z7DNZUK3dtVksEMRJg6jewjVLPswLg8d4dOBeXnLGBhIFjww8T10mdHd3sqNyEFFsoa+wnm9u+68U28fYO9NgsDFJu4CTU2VWL9tCX2E1e45Nc6oRozo1O/ZplrVcw2UbX0n16Gae3nuUgfosh6dmqQR1IlXmwIkdHBk8wdXtN7Ig6KOztYO+jgUUi0Vi1TAtNqNnASqHNiIvZ5FJZO78ofz0yWa1yAwrrOX7lVrpmwBiK9XaTT1s9oj0AbhEm5Gofehn40ecJHQWurnx1a/mthNfQVYSNnRfza3PPcmO0/tZv2gVI9UpTk3X2Nz/MtZ2bWCgsptj00f55Z4v09leYH+1xq76GKcrw4TtCQ3Vyel6jYFKhcG4ytah3SzqPZvrX3cj9+1/iOmgyp6REeq6wVCjyrRUPD/wMKdnBzkQPMy7L3wj3eVuEqEIZQCYhzsak0+yxmZIipOVQQBrZdgRk0c9nQjzcdbueUE4E6QjP1b4XhD2leuAyrqjf1PTDX/Q4diA0lzV/hY++fr/Qd/ZoxwcfZDVbeeypG0zI9MVCiwlroQ8f/wu7h/4AZeuuIR3LP8cRwcn+MOBr9Pa18NIoc5EMkJPWyunpgOiBQGTQYOnTu+lZ1EPqxdu4PRAL9e+eSO7Rp9hLI6ZacxQqcbMigm2nX6Si3vW8TfL/5aXR68FEqQMnGB9z1WGbOSFjHs863JDuZhrYcefVTc3gyrJnfRO5YN17qyep5E2T4K2E//SGyudZiiz7KZGqZinnzvKkae6uHHVV7jxihs53XiQQM2ypPVsjg0/xR17vsyyRQX+/c9/xLuXfZHpqXYWFS5hx7E/MTB+B/UgYkKdJupYyt7ZGfapSY7HY6iwwYSu8NPp+3n46GkaYxdwzau2cHjiBU7Xp5mK6wxP7yCeElwRfZStR2fYemp/OoUIbdLc6XPg7CG+N9NPZ8aXeYEnb19mLqXvoYSH/xqQLx5e/RjgJN1ErexoOcsXWQV5+b8sLWw6VU8azAQx+yYO8sijuzh18Gxu2PTfOTHzJLdu/wJTHOJz132Fm9Z/m5M7lvDogQMkMoWvvuglPL7j+1Rnd9O1oJ/Z3k5OyWlOxLMM1U5yzoYziWbamdo5yHNDf+TBieeoFM7mpZecy7bBp5gBjo1t5XStyP54gNPFYaaFJk5sCts8yBF+myFx0vEgxBEhlw9O95oGW47G6+yYvTy0lQlzwqaj04Cus7SdqcBnXzkq7O0oB43G8k3EUiJ9hKi0ZqgyyZgKaBGTPH7gl4w89ygzwUleu+U1/K+bvsjEMcnOHcMsW6/pnu1kbLbAgqkCR8dX0TuzgOe3f4uLbvgnBttbmSqOMj0ywvqzuljYsphkVQv9jUXMzM4wenyEJ4eeZFnvMs48Yx2l2Qp7Jp5mSkwjCtNMiYihWkBihJBGrVQJlrNloVQ42PdDpLB91hlSzMeFmo9qDVI3nfDf/8rNw4UXoVhzq1fCJLN1xn6UHQULiDWMK81gcoTHB37CzuGfsOHCxbR2lOkTK9jzaMhIMMm55y5iSXkFnWI5PeFazui9mIUdndTEGItbN7L35B0MrpaMNWYIFzRYd94WpoqS1s4inR0Feru7WRGtYWNjDeXBhAv7r6K7NMng9G6m9B4eGb+NIT3ILCEJRnjCmamLWwrc02BnbG5aoqcm7SUzc7ETtM58xJdcaL9rYay/yepdXcIMsPw3Il17RG6KfeZgGAaEAaS0kAo0+0b/yNP7bmXR2oV885++xWVLX8Kr3/tKTlYm+f1zB6g9HdK3YoqLLuhhcbWd5PAoj+66BdUxxTVLXsu+wQX88amvcnzhf1DseSmvuOIMwnI3E/UpSm1lWioB3bNFil0JM1MnGRqbYXRiD7878CXe0vphNp6xgi8d/SfuO/Ztqov/nESoHKFJhWaMJxvupH3TeYOzsU97BXRzYZq/p4rLZsbZwsJDcyP4OaaOZwC5LeUDyo1bUkwVQqbwJgWBjJiamGHb7J3c8IF38tY/+wDnLl3I8T1jVGsVisUy20aP0tNa5uCOdp4fmODi84psHbmFS153Bavia5g5JekvjdLZ/nF+e9/3Wfi2kyw471JO7a/SsqhMGESEvTVmJw6w7ek97N51hP4Fy3jh6DcYnznM0r4ruWbxS7jsqpfxf5/9Fj986BaUCGlvK5HoRj5pZmHJ5XC8mSK52JqOhR3T8RihLaF183c3Ek5r084DDa8R2VMd+yxTeG4kmis2LqlMU1AKLQ2CSolOAmYrsOHKK3jN9R9gwcx5jByFXx8/yV2/+So1NYMOBRTaeH54K+euvZKjI7Pc/dghejsXsrTtGuTKKeSCEqWjbZy1rItwzV8R/4VgX1tEz4aA1pMjHN63nR0PPcvo4QlK0RLOPvscdm7/FkGtjhKK30z/K0uCRaw8tILXd3yOK9/8en7+/Hd58ODjEAVgpiZai1UCEsBN0fdRBosGVja+WWYWn6WoLRylSg7TLxlRsg6RXSWwc+6sG0pXiXXNlKrZS5SwdE47i9BKELV0ce37P8SGvmsZ2hoxsqrGgRO/5ZFf/j80pk8jC5JqmNDW08voqRmOnd6JaF0DEqbr8JMf76e4OObC6/vof20bR55r0H/xIqrnRUz/4Ri7bn+Og3/YRm22QEdXN52rVrL2nJW88MBnkZNLWdG5hpGxW3hu9D4+ds/zvPOSj7Ol7QZGtm/gLRu+xKXLfs+/Pf5NRpLBdAab7ZsAZSdTW6PzZIz2eqqzc7lBsbc5OEb46WgvaOQGVE21aF+b80V8jZK4ufQ2l1KfrrL0FdcS1a/jsV8cY+K809zz8F9x57dugsYsHd19CK2plCDpKNDStYA9A08RiIS6jJho1BkrTXBgYISff+cwv/rJCRpna44NnuTO19/Ggx++l+2/3kksCnRuWknb2etZet0mnnrsswwfbLBwwaWEbZIwjOhu70PpCl+952P88OBf07Z5mJ++cIipmau4cuW1VOqzCBE4wWYEU3uzN+bhNc1BeZ4tf51+kfcDXFF/2Gwygg4F/RuI3FUp2/eSWVoTBJLBo/uJNg7DinZO766x8bLXEM7McOzZ51E6QQjBbFFQbguQ5TLFjn4Gx59kyeKNnJiYIGCIhqzR1r2Q/XvqqMdmOLb3BIefPk3r8ipdPUsRHZKku4fShX3suuXz1PaFdHdtoqO9jbCtGzmYThZL4oTLzr+KLWddx3PDk+i+AlOFYfaN7kEGkmxOkfn08kFWCT5cN/uGb/25/JAHReAeytvNfyVJ4CthPi3aQO2YkYGelDV4EKQSZKnIyGN/ZHLkEMv//GZ04eXUGqs4/6NX0vfsz9jzs58gZsaYjSRRMSbo6aS1XbLv2V+TRFM0wjKypGgpd0AQoMQUKmqnvb+VRWuWU+udIg5jCh2L6H7tGvZ/55OMP7iPjWe+DdkI6WlbzKjcjdaCoK2V6978Xs5b8mYO7m5Hd9ToSh7k9me+zuHR/bS2tHjBOJ1TlBjRKNFsxeb4PKrIaOccHHHe4o2E83lsP2I3/4sTrYNA7MAdneKltR7XCd2gUC5Q3bGH3V/4MEef/CRjK0/wtFjA9PV/xYavfRMRRMyImGpZUzizm+GRY0RBN3sO3sVE9TgtPR3UIphQEzQ6BVOtkkpRQEeRUlc/xTXrCc5p5fh3P8vo73bQ0rOW6eoga1ZsRBZaqaoYVZBc9oWvUbjiJh5P+qksHeCFff+F79/9IQ4M76alVEYT4yXE3MSunNBzMOxLMdvNIkP+Gl+2WRAWmeCFm9/i09HsNv4AOM/2rTXYfdsJQCikkBQ72tGiyOR9jzLy8D0sft/NJFs+TGPRJkSgqddqtKzr4tSfnmHm5CDl/uW0RWcwwXMcn76LKFlA17pXkKgiE2FCLWyQ9JSIlpepTD1J44kDTG09yqJVrwNVZ2Y6oaImWL54IwcOK0QQMLb2LMYmY8bu+3d2/vKriGqRttaFIOsgkiabFV5/crI2hiecEeJ9pinrbOzjX+MfkHNGGHM0ZlRh8xcmCOenamdX2QjfPCS3riyUIioXOPN1/0hHdAED//xlht97I8n9vyNRAtleoKpGmdg2wKKLLqfvjEsplFegpkq0nX8p5TOWMnrqdqbr25ntbqHR101V7WJ0z88oqx5K/VsQqptCYSHLFl7BulWXcfzEMLpYpVAskiAZf/wenv3km3jhu1+iK9jC5ed9mmKxJfVhIbJpjVaAlhHZvvqo3JT3yQSXT1+6eGikZC91E7Os/EUO+lPvSL8LJ1x/kJYF5Wy6Xxqw7BwynBUIrRBmIpbubKXv/LfS33k9e3/8JQ48dRNSCkRZQnsby//iaqhLZgZOIcpFWuNzmNm+j+Wvfg/62Domhh5k6MEfIxsaegu0t99AsW8R47/5d/o7L6a3ZxFdrS0sW9RPZ/c6uto7CI5okmqNbX/3CUS1iwte9QXEWAe6M0QFChp21nImwHR4pbMHMg6WcMannJHbwdi8+vGPOvMMtfYWbPIgyAo+m7jnjRdcFkk7AQtP+8qmdNGmTdpYloGkQCOXtKAnZmlZdiEX/Jc7GXzia5x+7BaO3fojyu199J/3eqYGZpFdXbS2tFJo6Wdoz7MMjT5O2Hc+bWvfSyM6glAxQW05arbB+KmHkYMRSzdeQk9LO0Ekoa+TjqURu57/FY9v/TGomNUXvZ2zz/gI05UpJhqnCJcXSXYkRizZ+waZsBSYGRLOI5yV+77uH8+OzSt+LawH5E/h2bPwR33OKXQ2qd0yIC/jaRusjNXrXNJIpYqVGtVWoOsl5yK6pxh+4AeI1ipnf+YbTB/axQvf+Ryl1u+w+nV/Q/uqy6ienqIRDlNYspCxZ3az4IPnMzVWp7hxPUkcM7tznK4VULlzL+2LlzEjNWFLia6FXew//Dg/++GXmawe4arXvp8l/RvYufMBdk78H1ad/zYWDW1hsrAPJXU67cQalutwCp9ucGnHN9bEtEm8+1Bk5JSnotlZS+fBPA9oxiYXb1zgzQJqeizTrHaXZccyD7DxwpwXAkWMjhPaL1rKVHwPh2/5O4SMaT3zGk5um0G1XcA5//At2s9ZzY4ffoQD930KdW4VcdUmgnPPQoVLqA4cILmwB9mRELZr9PkLqe3cTjCzgJY15xKdtw61YpKtj/wDD9z1IbqW9fGat3wD3VjLc08eZWnPFSyoS7b9/jMcbruTwhX9KGUmWplYlT2AMZgs8jaf9dafAeJvGU3xo2FaTjiZiK4FS+3U2lxu3080ZW/DSOxrR+k7YSFChtmAWkiqlTHa+zdTr4wwObwDERRTa5ICpERpgSiU6LzoApJqGx1rLqYRB1RGByn0tNKYraOnJAs2bUS0TnPkV//K9MFd9L31XXTc8H5mxlupbt9F+7vPJerrQNU14uQos//9D3SffR6tKwoM3f8fHL/7R5Rbl7Dp4ndR7F/D0d1PM3P8KEEhoLRyIV2NXtplyODg01QXTDH+/DPoRh2EMrEqlYOKq3T0rKdc6mN8aAelcpcRaoLSMej0U+n0TZvU47P3yTKP8JTgJfukzb/aAJo5ivfdnve9w33x9e8jYlafsxSdJuUa05NMPL2N3stvZPxUjamBI7RvWcr04QGSYkj4kpWMzY4xPlhmyYf+hWUf+AfG77idox95E9HY/ZRfvp7asRnaooSWoqL6/Chtr7kI1b6V7f/8Vo7d9UN6ll7Oypd9lMnlCxloP0l00UIKq3qQfW10bFrEieEdDI7NsuasG5l8ege12UmQ3kwO+yxAa9Dpa0+uZzp71p2lK3QmZA1zhWlYVVNIkCA8WtVU2ZwLLK/1z3tw5I5nk1VtHLFMSCcJYbFEPDvGnq+8iyg6SMe55zC+bQTdEAR93WgZodpbqRdmGN13ELX4CpZ//Vd0v/INHP/U55j88kcJjj/PypYiS4pF1Pguhn7+SfZ98bMsvORVnPe12+i94dUMDj/OxNh+CFqY2jtCuHElurPE0EMHWb7pcqK2Qf5w619SSUaJCiW0SnDznBDe9HyPXmvQXppFZRaaCTqLmA5q5qai00109S7NiTi9Z36YlR4373NpYV6+82EocI2uVcZp7z+XWmWEqeFdBGEpbY6BsbRT6WyYRCnqU1OUV55B92veilywESUD4vEZaC0g+tpJZhPCpb3EswVazz2D+s+/xtD3fopukyy+9kqSJOH0vQ/BdMzSd76drlfdxOiuA5R7CgQto0z+/i7GnthP1HsGUUc33Qv7CRqDDDz8M8aP76ZcbicIg1TOyrA58zIJCJKkRlf3WlqKvYyO7KFU6sQyJa0T82cgSGsw7685AjKv8DORi67eJdrP+9hZ0rn1g7Q1hAA7u1lImc71F1H6lqSZnlidHaN94SYa9SkmhnYhg6Khs+l5qwAZBGhAaUmjMotqNOh46VV0vP7txMFSaoMTiBWdUCohusoEYURtWtLVOsz0l79Led3LGXjye8gElp3/biYP/YGej32AqXo3pYUR9X3jCAHF2QoyPMXI/Y/R1rGEyqEnGHn8PgIZEJXL5umFFZgyCtDY9+WTpEZP9zqKhXZGR/ZRLndmYVjFaJ2+9op5CzN9GUQbaDJ8cp5Ms/WOpnFARkSdEzkctwOxLN2avi1jX7v0yiZ1wqgI2s4GTgcydk6rsDRWSKSAQnsHGsnU448x9ezTdF//elqufwcVsZBarU6xp0ysBInSqHVn03rxKio7x1j+kS9DEFC5/RHKl59JfdO5NHafRIxWiZa0UTtRQbd00bqwjUDewdFbvkcQRhQ7upFCI3SCRoJKcd11QeDm/GitCYKIJI5Tg5kn1uV4oc6OZgK3wvfkbOKqbD7hXZl9xd8svcwIWXYTBVIQNyoUi53Z9d76E+mMapEN84MAEUhEICj29hCVWhj7xa84/Y83ER24m+6zOmkUO6iVStDfylghoOv6P6Na3YboaiFuD5ie2Urb9a9ishwQLikTL2ilUmqnfE43wcTDHPnb9zBy512UehZQ7OxCRgEEEtxELAMCwnpp1lalNaWonbheAymyQOoxmUxKRhH5XEWTDD2P0O55gLX3zGXsGglYemo0Zt1C2PVvULjlRzVIGVCvTNC9YB1CBKZB2rzM7aXxvDdyNCDMC3NBoYDsX0w8VWHwS1+n9b4/0v2R99O4/CqmhGCmUWPm/LNYeM4SxlsnoTpLz/p+6ls2MHuySnF1D+V6gn70foa+9L+ZeWobUUuZ8sKFoGLsO25apdNP7Oq+LmUCCCSaBJRGypByoYeR2mGkCFJPcbKxyxnY9IPHhJq3ZvZoZGDmBQkPLiCdMpqlGfBmQ5ilqZwFpNPTFeiUwgkZUJ0dQxJQLHVTr08igjBbtgzSIGwUoE1DHDZJiQggam0hbG+jsusAMzd9ip7rXsnSj76PiXWrOQmcc93LmHz4UQSKnj+/lt2RpHdJiQUHD3HyW/+H4VvvQcaKcv9ChE7StYMEoGLPsKQTaAa3VrgSpRuUil0EIqRSG6Nc7sjgwkcAK1qfhgq/aFqfR5Vc2dAKPlNCqoCcJu2cE6cgW4mxBqSLGxqBUnVmJk7R07+JY4ceoBB2YCO5MAzI3lObd9Ds2kJaSkQQpo8EhaDQ0YYSAaN3P8LU09tZ8bY30PXOGyi+7GKiWx+GQkj7VRezemSC+Ee/YNePb6M+Mk65o4tAaFBJOp0miU2/ZBbhLOxowz6lhCQNyjIIqNanWd6/junJ0yjdcN6bJSB1RkF94To9WGt3OQ3/Iz3T0b1Y29kPqTdabUmTCdeZhdgX9QUIbVYrCdI3HREBaIh1g0ajgkgi1m58A/sO3EGSzCKDdMSspbF2KUGGKQ7LVDEEEToIwfsTMnDlGkpRq8zSuXol59/8Xjp6+5ASJoeGePqr32X8wBFKrS1EQYBQCagkZSpJnFp+kiDMd50kZkCVmLLpCFgr491JTCALnLvyerbvuwMV1imGrYggXaciXUUlNuXN1C23ZqlN4FlJSwfXPg3VqQIWWWB3Bp6+AZlNzci9PUlg8N68miSlwfc0oCU6RqmY6uwki/suptTey/5Dd1Jq6TLKNPATBKnwhQmGUhqhR+mnDFIFhAWzn16HFNSrdeqx5oyXX4pIYvY/8ARRGFAsFRAmOYZS0KijVcMJXiWxUUCCTmK0SkzZOLX8dLEhpBbMVsbZvOr1zE6McnDkEVrK3QQyQgZmXTptFWhigMhyX/Z8um8f89r9fHzIFOCngjCBSBhwcEk585ajxWydKgAhzEJHAZqERMc0GnWSWoPli66kyiSnRp6laDm0EM6qhbQKCCAMQRoFBEGmjDAda4gwRBsOqxNNZWoS0JTb2007MFasIEkgiSGum08r+Ea6b4TuPMAIX2hNdXaCZb1b6JKL2Tvwe0RBUgjLSBkiAjs/JVWAUr71m3hp3jPOFGAIbHMeQoPMBQ7tBQ7vMXNudnR21Jwz5bUyazOkipQiQAeaYwOP0ir6Wdp/KbXGLFoKN3J2rMjirzCeICVaBoaiGusPQ5QMISogiiVEsUhrby8tvb2IYjn9iwroIDLek1JNYfdlkBqUgbzU88zonKxNtdo0yxe9hM5wKfsHHiCRMYGM0ryxXdjBt3xHb7xYYPNrbmWU/MxSK/xsHGCOOMFqr5RHrXKBx+7bUZ8ZPVrBCiEIZZFYVDh28iGWtJ7NWavfgIoVjXol9RqZLhWTpjkM9NklbIJUiDqQiDBIsTdMs68EIaJUhHIZSi2IYjGDNHMdxrO0+zRxB1yAF2RL5tTrsyQazj7zLSxrPZ9DJx6ixjRhULTDAyMbAz944wB/0rKfAfUMdR75p5e2d/XrLAXhbTbwurchs+OWUAqRsorM/VOM1ip9uJEkCUkcU49naYn6OG/j2wgW9LD35KOMjR1EJfUUzsLIWKqBm6iADqMU/8MIEUYQFCAMEYERqlkiTZPCDkqnyTQVG8hppDEgbkCjkUJRXIekkQblpJGeA0QQ0t2zio1LrkYMTfPUju8x1ThJIWojCAKCMEDKdCUArSyd9RYdyaUeVGazji1aXMg8xHIm0d5lg7BuUoJVQJNCALuksc0LIVJLztQqUEqhErN2W6yox9NEssza9dezYP1lTMQTjEweplIZIVG1tM4wgkKEiIqIQgFRjCAqIgoRolA0ygicR9h2aKXSoJsk6LiBbhgF1Bqoeh1dr0O9liqkUUc0GqAhjEqUSt30tC1jAV2M7HuCnXtvp65mKIatyCBAhgGBJRoe5rq3KJ0nNOO8GUU5y89SOH4s+E8V4P61fBlSliFkpgQzbtA6XdUwjUMm/6MSo4hUGY2kRtyo0da+hI7+MxEdfSTFFigUEIUCFAtQjNyfKIapQgohohBBZIQfBSaA23wNKeVMFDpO0I0EUY/R9RhVj9HVBlQbUKuhaw1EI0bUquh6jbBWhclRJk7uYnLqOFFUJAzKyCBNGMogXTrNTd03CtdAugwmqdWTzMn1p/vNY6dsvGAU0G+jC6BylDNLGzAHjoS1PszaOZZuCem9VpvCQqI0OklQKuXCjUYlpYQyQMgIIQu5oGgDMQiTokjHD/6CIX5+KXXwLEcjdAYLWJ6u0nSxy3bqGK3Mn06QMiQKSyYupWubuu92sOall4XIljLArqjoCz9tZO6IXSfOSVdDaBtvGYnLA/lK0NplILBIoxVurWYlEFKbyZN2aC9MukEihUIHAch0Xc+o0AradEArFA3zYMO4aQLEvPjm91U0H9PecR93reJSQuPGMEERIYLUBIVEBKknS7PorF0Hwr1qZYWvDHCITKg5FczZ0Xnhm6Nhqk57KHNpkeuAcT+XkiALfnYikco6nb2ElqYapEzft5U69RhrocJ4jUST+DDnWukZgv9ymtesOZ2dQzm0a7rZM5ErWw0svbVw1u7/GmA66s3otbbCB+wirP6LeOlNrCy114a8h9jkd5gKDDcd0QUPRzuz3rpnB1YJ2ibsEtKRsCmpM4UJYT0BhA7SsYLKRhJ2HBLYe2fSN/+nsNOUmM0rABw+Z7MYrNAtHGV9A7OWr7BEwtQtLCW2bz2SDrTsfZXOpt+IxDwv9vAcO9shC7hp05qCg2lv6gFNhZ0nGK02e4IVer7fgnQ2gYkLRuBukGesKk1xCxKj/1AKEqXSeVsG/zPXFjlhy0DiG1kKEwFKWaPQJCrxW+YboFtPRFryYOOFFTw46FVK5d4bFrZdTk7K1Zvdzk4/8d1zruWnMstyzWFeSwIhLJZkFdjFmZwS0N7qluZ6kzsSBCknt3ohHRfIQKbBGAjDkERpZioVyuUSkRA0EoUQUCgUnDsrrSmXWigVS0xNTwGKJEmQUqJ0QLWW0FIqUavXieM6rS1F12Gl0snAqSHY6SIBSqV9S1SCMC8eCiEJgoA4bqBVTCEMiJM4E6xlLsK8fOUyqtpZ8pwfpMpR0JxZ5La5L2hoK9TsuMv7+56Q07d1RYkWKpfS1kAgJVPTs7znPe/g4OGjPPTQoyxZuoQv/e1f88V//jqnB4e48orLWLZsMd/7wU+JQtssyUsv3cL5523m85/7CsW2EqVSAa1DVqxYwec+8wnO2nQmo2MT/K9/+z6/vvV3qDgmjmNaymWmKxUSpSkUIoJA8tLLL+LT/3ATrS1lojDihe27KJVLrF65nOmZGdrbWnnhhZ3c/PG/JxDkIUYkxvAyxpj2vEl+5pyf9cxL3kJlqkBv1UQP+7V0snYApdUcT8jr0y5OZ8E3MfNs0o4orZiamubV117NvXf/kS1bNnPNK17G3fc8yG9vvYtXXfNyHnrsSdatXcub3ngdExNT/PCW3xCGEUuX9PPeD7yLRQt7+c2tdzM6Ps0vf/xtarU6n/3iN7jmFZdz1qZ1nBwc4tKLtlAsFnny6efZfM4Gztq0jh079/GNb3+P5cuWcsVlF/GXf/UpZqenSQy+v+ylF/ORD7yLz37+f7Jtxw6CQKJiA2f2t2V0+uTPjXatDOdhAvNivoFkfz0BEL4Cshhgf2vFLqbiw5QwNBOD585A3M9DiTQDKHTKknT61Km1pcz9Dz7Cq179ShYvX85F52/my//ybV5y0Xk8/cw2Oro6OHDwKJ/+5Mf4wY9/xVmb1vE3H/sg9/7hES679EJ+d+/9qCThEzd/kAcefoJ1a1dz3qWvYdfuPfzu7ruZnqryqb+/ic9+5uPc//ATPP7Us6xatYKTp0f4r/94M4mC/QcP02g06OpsJwolO3bs5uEHHmFmepb3v/dt/OTnv+Xg/j10trWQQY6BYbewTILAx3l/83FBN58yks5IAtqtFZGHnIxKNgVm/Nn/+RtkD6IV7iUHDelUjYRQCoaGhjh67ARvuP5VCCG4/Xf30dJS5nWvfSV79x5ixYqldHa2s3LlUgpRRBQG9C/o4dY77uX22+7hBz/6OSdOnmbjhjOJ45hySzllKVqnvF0IBk6d5g1v/kuOHD6GFIJCGHBi4BRnrl1lArbgDa+7hne+9QY2blhNFAk6O1oBTUd7K60t6dpwKeQoFxvTHidGNoLmB+8uJTGP8TcLPxuQaX8ckGK4uwKL/b5GPfzSmmwVrOwwORezyhQonVAIA+6594/8x3e+yef/x/9k4PhRDhw4xN99/EPc+LYPpKPmOGH79j10dXVwavA0ixb28bpXX80vfnEbURRy9sa1/LfPf5Vrr34pP/v+N/nnf/k2V191OfsOHmF6aobuzg7q1Qp/ceN1vOedb+Lt7/sE73zrDQSBJAokYRjyzvd+jOPHjtDeUiQqhMRxgyiMzP1jZJQSh2Yun/F7T7JOJv6xzGwzxuNrI9vPXtR2D43zN3G00+fnRqXaQI7/81Rzr0kblChNFIXs2rGL2++8m6ee2kpLucgjjzzG2jNWcvzYUSqzFX7wo5/ytjdfj9KK39z6O06dGuCOO+/lxhteQ19vD//xw59y+PBB3vGev+YTN3+QD77v7QyPjPLQw3+ira2Vn/3qNlrKIT/7xW85c+1qbrj+z7jtznt59tntnBo8xW9uv4tQJnSUI+y8plMnT3LbnfcwNTWZjlu8n2nJU8l5ICd3Lg89FvMzF7Bsiuwnt1o7FqbFhC/4Zo1hstD+eT/37zcg30DI+DVaIIOQmZkKLeUSMpAopalUqrS2lgGoVGqUyi0mnR1TKhaZmp6hXC6DENRqVdpaW2jECbOVBqVSmUajRhAIojCiUq3Q1lImjhMaiSaQAfVGjXKpRCAFU9MztJaLJqFmp6VIKpUa5XLR5IbsekG+0fnbPCzH22zCIHfWS2VkCCMQrR39Rk/KPO7zBZoXJE4HzYrSTefmo2YGSUW6Onqis+AWyMAMojRBEBjoS9eXUEoTmmPaKDNJkvRnTMxxPK4vpSSOk/THH9wDmHTAp7UmkJIksW/DpIiczi1Ij+cfqMwVvJGlJ5M8TNm3iPKq8SHcxE9t1s9IFZBe7BgOPt2c24BUznn893XeDEn5MtnhPCHLkwD3o0K5Tvgdl+SE0MwjvLKZwAwXNNCYoXxz8PzPuH1TX2ydzKc47dFyeyj7cSxN7hUluwir1ZKlovmGZUMw+2NPc4WtbR5ojiItFJl/5gjZ7mWumiMbHn1zi2m4Cub3ujnDUS8upRY752T+fnPKzLkBWWKhmRlZep5TNV4nmt8Rs4k55enIb5ywpTzN2sr9qYfaw1D1IrAlmlzZBKc5/WvyjPkE9qIC0k3fPVzXflvmu1I7y87e90z7ky/jS8qrz3ma3bUpnkxOghf7KUM7lcLlhfyG+UqwV/tl/fqM1l0+2K036JXzW5kTkanC61pu5bz5hKczsmGRwbtbtjff5nmF80ArqGb4Y57Rrph31/5mzYvde96fs9XZ1bjVgUR2NhW5MJOg8JbkTelSPo1tJni5SONT1xfbmizJA748Hnje48QsHcI1l3rxzT7fFTnB+4Ezq8gCTpPRNt/JyE4bWc1fTs+vgLmFjbWbHLN9JqA9IQrHHmwm1MaA5pvb9nk0FuBFFTIXuuaem1v/i2/Wc2088dlMcz2+0rPYlBrdXLW6B1nufbKm+3oytXveQGz+TmUor7OG6KwBDpAss8nip1vwaH7ZZhamXSftKd/tfUv0FepbPfN8Zh33WZAfCuePA36A1t4dLBKkc2Ztk214c2ssuap9XmfrNFP5vbuGwgsW9kZu2rhDnzxyW4wU6Dntd4rwOpo94vz/swnswyD/mJ0YNTewNt3f4fd825wI4+qwqnXzAX0d5bamnyTxg43fXldrpr65xAb+X50PaKBZPo11AAAAAElFTkSuQmCC">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacology of Analgesics | Clinical Reference</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            /* Core Palette — warm clinical slate */
+            --ink:         #1A1F2E;
+            --ink-mid:     #3A4259;
+            --ink-light:   #6B7394;
+            --surface:     #F5F4F0;
+            --surface-2:   #ECEAE3;
+            --card:        #FFFFFF;
+            --rule:        #D8D5CC;
+
+            /* Accent system — one warm amber anchor, cool secondaries */
+            --amber:       #C8881A;
+            --amber-pale:  #FEF3DC;
+            --teal:        #0F7E7A;
+            --teal-pale:   #E1F4F3;
+            --violet:      #5C3FA3;
+            --violet-pale: #EDE9F9;
+            --crimson:     #B91C1C;
+            --crimson-pale:#FEF2F2;
+            --slate-dark:  #1A2035;
+
+            /* Drug-class identity */
+            --c-paracetamol: #0F7E7A;
+            --c-nsaid:       #0967B0;
+            --c-opioid:      #5C3FA3;
+            --c-adjuvant:    #C8881A;
+            --c-local:       #1D6A3A;
+
+            --radius: 6px;
+            --sidebar-w: 272px;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
+            --shadow-md: 0 4px 16px rgba(0,0,0,.10);
+        }
+
+        [data-theme="dark"] {
+            --ink:         #E8E6E0;
+            --ink-mid:     #B0ADAA;
+            --ink-light:   #7A7870;
+            --surface:     #141414;
+            --surface-2:   #1E1E1E;
+            --card:        #1C1C1C;
+            --rule:        #2E2E2E;
+            --slate-dark:  #0D0F14;
+            --amber-pale:  #2A2010;
+            --teal-pale:   #0D2220;
+            --violet-pale: #1E1530;
+            --crimson-pale:#220A0A;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+
+        body {
+            font-family: 'DM Sans', system-ui, sans-serif;
+            background: var(--surface);
+            color: var(--ink);
+            line-height: 1.65;
+            display: flex;
+            min-height: 100vh;
+            transition: background .25s, color .25s;
+        }
+
+        /* ── Skip link ── */
+        .skip { position:absolute; top:-60px; left:0; background:var(--amber); color:#fff; padding:10px 16px; font-weight:600; text-decoration:none; z-index:999; border-radius:0 0 var(--radius) 0; }
+        .skip:focus { top:0; }
+
+        /* ── SIDEBAR ── */
+        .sidebar {
+            width: var(--sidebar-w);
+            background: var(--slate-dark);
+            position: fixed;
+            top: 0; left: 0;
+            height: 100vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            z-index: 200;
+            transition: transform .28s cubic-bezier(.4,0,.2,1);
+        }
+
+        .sidebar-brand {
+            padding: 22px 20px 18px;
+            border-bottom: 1px solid rgba(255,255,255,.08);
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .sidebar-brand .title {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.05rem;
+            color: #fff;
+            line-height: 1.35;
+        }
+        .sidebar-brand .sub {
+            font-size: 0.72rem;
+            color: #8A9AB8;
+            margin-top: 4px;
+            letter-spacing: .03em;
+            text-transform: uppercase;
+        }
+
+        .btn-icon {
+            flex-shrink: 0;
+            background: rgba(255,255,255,.08);
+            border: none;
+            color: #CBD5E1;
+            width: 34px; height: 34px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            font-size: .9rem;
+            transition: background .18s;
+        }
+        .btn-icon:hover { background: rgba(255,255,255,.16); color:#fff; }
+
+        .sidebar-search {
+            padding: 12px 16px;
+            border-bottom: 1px solid rgba(255,255,255,.06);
+        }
+        .sidebar-search input {
+            width:100%; padding:8px 12px;
+            background: rgba(255,255,255,.07);
+            border: 1px solid rgba(255,255,255,.12);
+            border-radius: var(--radius);
+            color:#fff; font-family:inherit; font-size:.85rem;
+        }
+        .sidebar-search input:focus { outline:none; border-color: var(--amber); }
+        .sidebar-search input::placeholder { color:#64748B; }
+
+        .nav-section-label {
+            padding: 14px 18px 4px;
+            font-size: .65rem;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            color: #4A5568;
+            font-weight: 600;
+        }
+
+        .nav-links { list-style:none; padding-bottom: 20px; }
+        .nav-links li a {
+            display: flex; align-items: center; gap:12px;
+            padding: 10px 18px;
+            color: #94A3B8;
+            text-decoration: none;
+            font-size: .875rem;
+            border-left: 3px solid transparent;
+            transition: all .15s;
+            position: relative;
+        }
+        .nav-links li a .nav-dot {
+            width:6px; height:6px; border-radius:50%;
+            background: currentColor;
+            opacity:.35; flex-shrink:0;
+        }
+        .nav-links li a:hover { color:#E2E8F0; background: rgba(255,255,255,.04); }
+        .nav-links li a.active {
+            color:#fff;
+            background: rgba(255,255,255,.06);
+        }
+        .nav-links li a.active[data-cls="paracetamol"] { border-left-color: var(--c-paracetamol); }
+        .nav-links li a.active[data-cls="nsaid"]       { border-left-color: var(--c-nsaid); }
+        .nav-links li a.active[data-cls="opioid"]      { border-left-color: var(--c-opioid); }
+        .nav-links li a.active[data-cls="adjuvant"]    { border-left-color: var(--c-adjuvant); }
+        .nav-links li a.active[data-cls="local"]       { border-left-color: var(--c-local); }
+        .nav-links li a.active:not([data-cls])         { border-left-color: var(--amber); }
+
+        /* ── MAIN ── */
+        .main {
+            margin-left: var(--sidebar-w);
+            padding: 48px 48px 80px;
+            width: calc(100% - var(--sidebar-w));
+            max-width: calc(var(--sidebar-w) + 860px);
+        }
+
+        /* ── PAGE HERO ── */
+        .page-hero {
+            margin-bottom: 52px;
+            padding-bottom: 28px;
+            border-bottom: 2px solid var(--rule);
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .hero-text .eyebrow {
+            font-size: .7rem;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            color: var(--amber);
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .hero-text h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2.4rem;
+            line-height: 1.15;
+            color: var(--ink);
+        }
+        .hero-text h1 em { font-style:italic; color: var(--amber); }
+        .hero-meta {
+            font-size: .8rem;
+            color: var(--ink-light);
+            text-align: right;
+        }
+        .hero-meta strong { display:block; color: var(--ink-mid); font-size:.82rem; }
+
+        /* ── SECTIONS ── */
+        section { margin-bottom: 52px; scroll-margin-top: 24px; }
+
+        .section-title {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.55rem;
+            color: var(--ink);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .section-title .icon-badge {
+            width: 36px; height: 36px;
+            border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: .9rem; flex-shrink:0;
+        }
+        .section-title.t-paracetamol .icon-badge { background:var(--teal-pale); color:var(--c-paracetamol); }
+        .section-title.t-nsaid       .icon-badge { background:#DBEAFE; color:var(--c-nsaid); }
+        .section-title.t-opioid      .icon-badge { background:var(--violet-pale); color:var(--c-opioid); }
+        .section-title.t-adjuvant    .icon-badge { background:var(--amber-pale); color:var(--c-adjuvant); }
+        .section-title.t-local       .icon-badge { background:#D1FAE5; color:var(--c-local); }
+        .section-title.t-generic     .icon-badge { background:var(--surface-2); color:var(--ink-mid); }
+
+        /* ── CARD ── */
+        .card {
+            background: var(--card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--rule);
+            padding: 24px 26px;
+            margin-bottom: 16px;
+            transition: transform .2s ease, box-shadow .2s ease;
+        }
+        .card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+        
+        .card.stripe-teal    { border-top: 3px solid var(--c-paracetamol); }
+        .card.stripe-blue    { border-top: 3px solid var(--c-nsaid); }
+        .card.stripe-violet  { border-top: 3px solid var(--c-opioid); }
+        .card.stripe-amber   { border-top: 3px solid var(--c-adjuvant); }
+        .card.stripe-green   { border-top: 3px solid var(--c-local); }
+
+        .card h3 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.15rem;
+            margin-bottom: 10px;
+            display: flex; align-items: center; flex-wrap:wrap; gap:8px;
+        }
+        .card p { margin-bottom: 12px; color: var(--ink); }
+        .card ul { padding-left: 18px; margin-bottom: 14px; }
+        .card li { margin-bottom: 8px; }
+
+        /* Brand pill */
+        .brand { font-size:.72rem; background:var(--surface-2); color:var(--ink-light); padding:2px 8px; border-radius:20px; border:1px solid var(--rule); font-weight:400; font-family:'DM Sans',sans-serif; }
+
+        /* Class label */
+        .cls-label { font-size:.68rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; padding:2px 8px; border-radius:20px; }
+        .cls-teal   { background:var(--teal-pale);   color:var(--c-paracetamol); }
+        .cls-blue   { background:#DBEAFE;              color:var(--c-nsaid); }
+        .cls-violet { background:var(--violet-pale);  color:var(--c-opioid); }
+        .cls-amber  { background:var(--amber-pale);   color:var(--c-adjuvant); }
+        .cls-green  { background:#D1FAE5;              color:var(--c-local); }
+
+        /* Subheading inside card */
+        .sub-h {
+            font-size:.8rem;
+            font-weight:600;
+            letter-spacing:.07em;
+            text-transform:uppercase;
+            color:var(--ink-light);
+            margin: 20px 0 10px;
+            padding-bottom:6px;
+            border-bottom:1px solid var(--rule);
+        }
+
+        /* ── DOSE CHIP (Clinical Route Color Coding) ── */
+        .dose {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: .8em;
+            font-weight: 600;
+            padding: 2px 7px;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            display: inline-block;
+            line-height: 1.4;
+        }
+        
+        .dose-po { background: #EDE9F9; color: #5C3FA3; border-color: #DDD6FE; } /* Purple for Oral */
+        .dose-iv { background: #DBEAFE; color: #1D4ED8; border-color: #BFDBFE; } /* Blue for IV */
+        .dose-inj { background: #FEF3DC; color: #B45309; border-color: #FDE68A; } /* Amber for IM/SC */
+        .dose-td { background: #E1F4F3; color: #0F7E7A; border-color: #99F6E4; } /* Teal for TD/PR/Topical */
+        .dose-max { background: #FEF2F2; color: #B91C1C; border-color: #FECACA; } /* Red for Max Limits */
+        .dose-default { background: var(--surface-2); color: var(--ink); border-color: var(--rule); }
+
+        /* Dark Mode Dose Colors */
+        [data-theme="dark"] .dose-po { background: #1E1530; color: #C4B5FD; border-color: #312E81; }
+        [data-theme="dark"] .dose-iv { background: #1E293B; color: #93C5FD; border-color: #334155; }
+        [data-theme="dark"] .dose-inj { background: #2A2010; color: #FCD34D; border-color: #422006; }
+        [data-theme="dark"] .dose-td { background: #0D2220; color: #5EEAD4; border-color: #134E4A; }
+        [data-theme="dark"] .dose-max { background: #220A0A; color: #FCA5A5; border-color: #7F1D1D; }
+        [data-theme="dark"] .dose-default { background: var(--surface-2); color: var(--ink); border-color: var(--rule); }
+
+        /* Dose Legend Styles */
+        .dose-legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: .8rem;
+            color: var(--ink-mid);
+            margin-top: 20px;
+            padding: 14px 16px;
+            background: var(--surface);
+            border-radius: var(--radius);
+            border: 1px solid var(--rule);
+            align-items: center;
+        }
+        .dose-legend strong { margin-right: 6px; color: var(--ink); }
+        .dose-legend > div { display: flex; align-items: center; gap: 6px; }
+
+        /* ── TABLE ── */
+        .tbl-wrap { overflow-x:auto; margin:12px 0; }
+        .tbl {
+            width:100%; border-collapse:collapse; font-size:.875rem;
+        }
+        .tbl th {
+            text-align:left; padding:10px 14px;
+            background:var(--surface); color:var(--ink-mid);
+            font-weight:600; font-size:.8rem;
+            letter-spacing:.04em;
+            border-bottom:2px solid var(--rule);
+        }
+        .tbl td {
+            padding:10px 14px;
+            border-bottom:1px solid var(--rule);
+            vertical-align:top;
+            word-break: break-word;
+        }
+        .tbl tr:last-child td { border-bottom:none; }
+        .tbl tr:hover td { background: var(--surface); }
+        
+        [data-theme="dark"] .tbl th { background: var(--surface-2); }
+
+        /* ── WHO LADDER VISUAL ── */
+        .ladder {
+            display:flex; flex-direction:column; gap:0;
+            border-radius:var(--radius);
+            overflow:hidden;
+            border:1px solid var(--rule);
+            margin:16px 0;
+        }
+        .ladder-step {
+            display:flex; align-items:center; gap:16px;
+            padding:16px 20px;
+            border-bottom:1px solid var(--rule);
+        }
+        .ladder-step:last-child { border-bottom:none; }
+        .ladder-step.s1 { background:#F0FDF4; }
+        .ladder-step.s2 { background:#FFF7ED; }
+        .ladder-step.s3 { background:#F5F3FF; }
+        [data-theme="dark"] .ladder-step.s1 { background:#0A1F10; }
+        [data-theme="dark"] .ladder-step.s2 { background:#1F1205; }
+        [data-theme="dark"] .ladder-step.s3 { background:#160F2A; }
+        .ladder-num {
+            font-family:'DM Serif Display',serif;
+            font-size:1.8rem; font-weight:700; flex-shrink:0;
+            width:48px; text-align:center;
+        }
+        .s1 .ladder-num { color:#15803D; }
+        .s2 .ladder-num { color:#C2410C; }
+        .s3 .ladder-num { color:var(--c-opioid); }
+        .ladder-detail strong { display:block; font-size:.95rem; color:var(--ink); }
+        .ladder-detail span { font-size:.85rem; color:var(--ink-mid); }
+
+        /* ── ALERT BOXES ── */
+        .alert {
+            border-radius:var(--radius);
+            padding:14px 16px;
+            margin:14px 0;
+            display:flex; gap:12px; align-items:flex-start;
+            font-size:.9rem;
+        }
+        .alert-icon { font-size:1.1rem; margin-top:1px; flex-shrink:0; }
+        .alert-body h4 { font-size:.9rem; font-weight:700; margin-bottom:4px; }
+        .alert-body p { margin:0; }
+
+        .alert-danger { background:var(--crimson-pale); border:1px solid #FECACA; }
+        .alert-danger .alert-icon { color:var(--crimson); }
+        .alert-danger h4 { color:#7F1D1D; }
+        .alert-danger p { color:#991B1B; }
+
+        .alert-caution { background:var(--amber-pale); border:1px solid #FDE68A; }
+        .alert-caution .alert-icon { color:var(--amber); }
+        .alert-caution h4 { color:#78350F; }
+        .alert-caution p { color:#92400E; }
+
+        .alert-info { background:var(--teal-pale); border:1px solid #99F6E4; }
+        .alert-info .alert-icon { color:var(--teal); }
+        .alert-info h4 { color:#134E4A; }
+        .alert-info p { color:#0F766E; }
+
+        .alert-note { background:var(--violet-pale); border:1px solid #C4B5FD; }
+        .alert-note .alert-icon { color:var(--violet); }
+        .alert-note h4 { color:#3B1F87; }
+        .alert-note p { color:#4C1D95; }
+
+        [data-theme="dark"] .alert-danger h4 { color:#FCA5A5; }
+        [data-theme="dark"] .alert-danger p  { color:#FECACA; }
+        [data-theme="dark"] .alert-caution h4 { color:#FCD34D; }
+        [data-theme="dark"] .alert-caution p  { color:#FDE68A; }
+        [data-theme="dark"] .alert-info h4 { color:#5EEAD4; }
+        [data-theme="dark"] .alert-info p  { color:#99F6E4; }
+        [data-theme="dark"] .alert-note h4 { color:#C4B5FD; }
+        [data-theme="dark"] .alert-note p  { color:#DDD6FE; }
+
+        /* ── FACT-CHECK / ADDED NOTE BADGE ── */
+        .fc-added {
+            display:inline-block; font-size:.68rem; font-weight:700;
+            background:#ECFDF5; color:#065F46; border:1px solid #A7F3D0;
+            padding:1px 6px; border-radius:4px; margin-left:4px; vertical-align:middle;
+        }
+        [data-theme="dark"] .fc-added { background:#052E16; color:#6EE7B7; border-color:#065F46; }
+
+        /* ── MOBILE HEADER ── */
+        .mob-header {
+            display:none;
+            background:var(--slate-dark);
+            padding:14px 18px;
+            position:fixed; top:0; width:100%; z-index:300;
+            align-items:center; justify-content:space-between;
+        }
+        .mob-header span { font-weight:700; color:#fff; font-size:.95rem; }
+
+        /* ── BACK TO TOP ── */
+        .btt {
+            position:fixed; bottom:28px; right:28px;
+            width:42px; height:42px;
+            background:var(--amber); color:#fff;
+            border:none; border-radius:50%;
+            cursor:pointer; opacity:0; visibility:hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,.25);
+            transition:all .2s; z-index:90; font-size:1rem;
+            display:flex; align-items:center; justify-content:center;
+        }
+        .btt.show { opacity:1; visibility:visible; }
+
+        /* ── OVERLAY (Mobile) ── */
+        .overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5); z-index: 150;
+            opacity: 0; visibility: hidden;
+            transition: opacity .3s;
+        }
+        .overlay.active { opacity: 1; visibility: visible; }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 860px) {
+            .mob-header { display:flex; }
+            .sidebar { transform:translateX(-100%); }
+            .sidebar.open { transform:translateX(0); }
+            .main { margin-left:0; width:100%; padding:76px 18px 60px; }
+            .page-hero h1 { font-size:1.9rem; }
+            .dose-legend { gap: 12px; }
+        }
+
+        @media print {
+            .sidebar, .mob-header, .btt, .overlay { display:none !important; }
+            .main { margin:0; width:100%; padding:0; }
+            .card { box-shadow:none; border:1px solid #ccc; page-break-inside:avoid; }
+            .alert, .tbl-wrap { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+<a href="#main" class="skip">Skip to content</a>
+
+<!-- Mobile header -->
+<div class="mob-header" id="mob-header">
+    <span>Analgesics Reference</span>
+    <div style="display:flex;gap:12px;align-items:center;">
+        <button class="btn-icon" id="mob-theme" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+        <button class="btn-icon" id="mob-menu" onclick="toggleSidebar()" aria-label="Toggle menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    </div>
+</div>
+
+<div class="overlay" id="overlay" onclick="toggleSidebar(false)"></div>
+
+<!-- Sidebar -->
+<nav class="sidebar" id="sidebar" aria-label="Section navigation">
+    <div class="sidebar-brand">
+        <div>
+            <div class="title">Pharmacology<br>of Analgesics</div>
+            <div class="sub">Clinical Reference Guide</div>
+        </div>
+        <button class="btn-icon" id="desk-theme" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+    </div>
+    <div class="sidebar-search">
+        <input type="text" id="nav-search" placeholder="Search drugs…" aria-label="Search navigation">
+    </div>
+    <p class="nav-section-label" id="nav-label">Pain Management</p>
+    <ul class="nav-links" id="nav-list">
+        <li><a href="#ladder" data-cls=""><span class="nav-dot"></span>WHO Pain Ladder</a></li>
+        <li><a href="#paracetamol" data-cls="paracetamol"><span class="nav-dot"></span>Paracetamol</a></li>
+        <li><a href="#nsaids" data-cls="nsaid"><span class="nav-dot"></span>NSAIDs</a></li>
+        <li><a href="#opioids" data-cls="opioid"><span class="nav-dot"></span>Opioids</a></li>
+        <li><a href="#adjuvants" data-cls="adjuvant"><span class="nav-dot"></span>Adjuvants</a></li>
+        <li><a href="#local" data-cls="local"><span class="nav-dot"></span>Local Anesthetics</a></li>
+        <li><a href="#scenarios" data-cls=""><span class="nav-dot"></span>Clinical Scenarios</a></li>
+        <li><a href="#populations" data-cls=""><span class="nav-dot"></span>Special Populations</a></li>
+    </ul>
+</nav>
+
+<!-- Main -->
+<main class="main" id="main">
+
+    <div class="page-hero">
+        <div class="hero-text">
+            <div class="eyebrow">Clinical Pharmacology Reference</div>
+            <h1>Pharmacology of <em>Analgesics</em></h1>
+        </div>
+        <div class="hero-meta">
+            <strong>Updated 2024–2025</strong>
+            Based on WHO, BNF & IASP guidelines
+        </div>
+    </div>
+
+    <!-- WHO Pain Ladder -->
+    <section id="ladder">
+        <h2 class="section-title t-generic">
+            <span class="icon-badge"><i class="fas fa-stairs"></i></span>
+            WHO Analgesic Ladder
+        </h2>
+        <div class="card">
+            <p>The WHO three-step analgesic ladder (1986, revised concept 1996) provides a sequential, evidence-based framework for pain management. Originally designed for cancer pain, it is now applied broadly to acute and chronic pain. The guiding principles are: <strong>by the mouth</strong> (prefer oral route), <strong>by the clock</strong> (regular dosing, not PRN), <strong>by the ladder</strong> (stepwise escalation), and <strong>for the individual</strong> (tailored titration). When appropriate, nonpharmacological analgesia and non-opioid analgesics are preferred. <span class="fc-added">Updated</span></p>
+
+            <div class="ladder">
+                <div class="ladder-step s1">
+                    <div class="ladder-num">I</div>
+                    <div class="ladder-detail">
+                        <strong>Mild Pain (NRS 1–3)</strong>
+                        <span>Non-opioid: Paracetamol and/or NSAID ± Adjuvant</span>
+                    </div>
+                </div>
+                <div class="ladder-step s2">
+                    <div class="ladder-num">II</div>
+                    <div class="ladder-detail">
+                        <strong>Moderate Pain (NRS 4–6)</strong>
+                        <span>Weak opioid (Tramadol, Codeine) ± Non-opioid ± Adjuvant</span>
+                    </div>
+                </div>
+                <div class="ladder-step s3">
+                    <div class="ladder-num">III</div>
+                    <div class="ladder-detail">
+                        <strong>Severe Pain (NRS 7–10)</strong>
+                        <span>Strong opioid (Morphine, Buprenorphine, Fentanyl, Oxycodone) ± Non-opioid ± Adjuvant</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alert alert-info">
+                <span class="alert-icon"><i class="fas fa-circle-info"></i></span>
+                <div class="alert-body">
+                    <h4>Clinical Note — Step II Controversy <span class="fc-added">Added</span></h4>
+                    <p>Some contemporary pain guidelines (EAPC, 2012) suggest that Step II weak opioids add limited benefit and can be bypassed in favour of low-dose strong opioids (e.g., low-dose oral Morphine 5–10 mg q4h) when moderate-to-severe cancer pain is inadequately controlled by Step I drugs. The "two-step" approach is gaining traction in palliative care literature.</p>
+                </div>
+            </div>
+
+            <!-- Dose Legend -->
+            <div class="dose-legend">
+                <strong><i class="fas fa-palette"></i> Dose Color Legend:</strong>
+                <div><span class="dose dose-po">PO</span> Oral</div>
+                <div><span class="dose dose-iv">IV</span> Intravenous</div>
+                <div><span class="dose dose-inj">IM/SC</span> Injection</div>
+                <div><span class="dose dose-td">TD/PR</span> Transdermal/Rectal</div>
+                <div><span class="dose dose-max">Max</span> Safety Limits</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paracetamol -->
+    <section id="paracetamol">
+        <h2 class="section-title t-paracetamol">
+            <span class="icon-badge"><i class="fas fa-pills"></i></span>
+            Paracetamol / Acetaminophen
+        </h2>
+        <div class="card stripe-teal">
+            <h3>Paracetamol <span class="brand">Panadol · Calpol · Disprol · Febrol</span> <span class="cls-label cls-teal">Step I</span></h3>
+
+            <p><strong>Mechanism:</strong> The precise mechanism remains debated. The predominant view is central inhibition of prostaglandin synthesis via the endocannabinoid and serotonergic pathways, with weak action on a putative COX-3 isoform. Unlike NSAIDs, paracetamol is inactivated peripherally by tissue peroxides, explaining its negligible anti-inflammatory effect at therapeutic doses. It also acts on descending serotonergic pain-inhibitory pathways.</p>
+
+            <div class="sub-h">Dosing</div>
+            <ul>
+                <li><strong>Adults (healthy):</strong> <span class="dose">500 mg–1 g PO q4–6h</span> — Max <span class="dose">4 g/day</span> <span class="fc-added">Updated</span></li>
+                <li><strong>Elderly / Hepatic disease / Alcohol use / Low body weight (&lt;50 kg):</strong> Consider a maximum of <span class="dose">3 g/day</span> according to regulatory guidance.</li><li><strong>Severe hepatic impairment or decompensated liver disease:</strong> Many specialists conservatively limit dosing to <span class="dose">2 g/day</span>.</li>
+                <li><strong>IV Paracetamol (Perfalgan):</strong> <span class="dose">1 g IV over 15 min q6h</span> — bioavailability advantage over oral in post-op setting</li>
+                <li><strong>Paediatric:</strong> <span class="dose">15 mg/kg q4–6h PO/PR</span> — Max 5 doses in 24h; not to exceed <span class="dose">75 mg/kg/day</span>. (Preferred over aspirin in pediatric viral infections to avoid Reye's syndrome). <span class="fc-added">Updated</span></li>
+            </ul>
+
+            <div class="alert alert-danger">
+                <span class="alert-icon"><i class="fas fa-triangle-exclamation"></i></span>
+                <div class="alert-body">
+                    <h4>Hepatotoxicity — NAPQI Toxicity</h4>
+                    <p>In overdose, hepatic glucuronidation and sulphation pathways are saturated. CYP2E1/CYP3A4 converts excess paracetamol to NAPQI (N-acetyl-p-benzoquinone imine), a highly reactive electrophile that depletes hepatic glutathione, causing centrilobular necrosis and fulminant liver failure.<br><br>
+                    <strong>Antidote:</strong> N-Acetylcysteine (NAC) IV — most effective within 8–10 hours of ingestion but beneficial up to 24 hours. Standard regimen: <span class="dose">150 mg/kg IV over 1 h</span>, then <span class="dose">50 mg/kg over 4 h</span>, then <span class="dose">100 mg/kg over 16 h</span> (Rumack-Matthew nomogram guides treatment threshold).</p>
+                </div>
+            </div>
+
+            <div class="alert alert-caution">
+                <span class="alert-icon"><i class="fas fa-circle-exclamation"></i></span>
+                <div class="alert-body">
+                    <h4>Paracetamol Safety in Pregnancy <span class="fc-added">Updated</span></h4>
+                    <p>Paracetamol is generally considered the preferred analgesic and antipyretic drug during pregnancy. However, a 2021 consensus statement (CARES) and several observational studies suggest a possible association between prolonged prenatal paracetamol exposure and neurodevelopmental outcomes (ADHD, autism spectrum). The FDA and EMA (2023) advise using the lowest effective dose for the shortest duration in pregnancy, though they do not recommend avoidance for acute pain management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NSAIDs -->
+    <section id="nsaids">
+        <h2 class="section-title t-nsaid">
+            <span class="icon-badge"><i class="fas fa-capsules"></i></span>
+            NSAIDs
+        </h2>
+        <div class="card stripe-blue">
+            <p><strong>Mechanism:</strong> Competitive, reversible inhibition of cyclooxygenase enzymes (COX-1 and COX-2), blocking conversion of arachidonic acid to prostaglandins (PGE₂, PGI₂), thromboxane A₂ (TXA₂), and other eicosanoids. This produces analgesic, antipyretic, and anti-inflammatory effects. <strong>Note:</strong> Aspirin irreversibly acetylates COX-1 (and COX-2), distinguishing it from other NSAIDs.</p>
+            <!-- ── NSAID Potency & COX Selectivity Quick Reference Guide ── -->
+<div style="background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 14px 16px; margin: 16px 0 20px 0;">
+    <div style="font-weight: 700; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--c-nsaid); margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+        <i class="fas fa-gauge-high"></i> NSAID Potency & Selectivity At-A-Glance
+    </div>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; font-size: 0.82rem;">
+        <div><strong>Analgesic Potency Scale:</strong><br>
+            ⚡⚡⚡ = Severe / Post-Op Pain<br>
+            ⚡⚡ = Moderate-Severe Pain<br>
+            ⚡ = Mild-Moderate Pain
+        </div>
+        <div><strong>COX Selectivity Spectrum:</strong><br>
+            • <strong>COX-1 Preferential:</strong> Ketorolac, Indomethacin, Aspirin<br>
+            • <strong>Balanced:</strong> Naproxen, Ibuprofen<br>
+            • <strong>COX-2 Preferential:</strong> Diclofenac, Meloxicam<br>
+            • <strong>COX-2 Highly Selective:</strong> Celecoxib, Etoricoxib, Parecoxib
+        </div>
+        <div><strong>Clinical Highlights:</strong><br>
+            🛡️ <strong>Naproxen:</strong> Safest for heart (Lowest CV Risk)<br>
+            💥 <strong>Ketorolac:</strong> Strongest non-opioid parenteral analgesic<br>
+            ⚡ <strong>Etoricoxib:</strong> Highest COX-2 selectivity & fast onset (NNT 1.6)
+        </div>
+    </div>
+</div>
+
+            <!-- ── Non-Selective COX Inhibitors Table ── -->
+<div class="sub-h">Non-Selective COX-1 / COX-2 Inhibitors</div>
+<div class="tbl-wrap">
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th style="width: 22%;">Drug & Brands</th>
+                <th style="width: 15%;">Potency & Icons</th>
+                <th style="width: 28%;">Standard Dosing</th>
+                <th>Clinical Profile, Selectivity & Efficacy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Ketorolac</strong><br><small class="brand">Toradol, Ketrol</small></td>
+                <td><span style="font-weight:700; color:#B91C1C;">⚡⚡⚡ Very High</span><br>💥 ⚠️</td>
+                <td><span class="dose">15–30 mg IV/IM q6h</span><br><span class="dose">10 mg PO q4–6h</span><br><small style="color:var(--crimson);">Max 5 days (US) / 2 days (UK)</small></td>
+                <td><strong>COX-1 > COX-2.</strong> Most potent non-opioid oral/parenteral analgesic for acute severe pain. Oxford League NNT = 1.8–2.6. Very high GI & renal toxicity — short-term workhorse only.</td>
+            </tr>
+            <tr>
+                <td><strong>Indomethacin</strong><br><small class="brand">Indocin</small></td>
+                <td><span style="font-weight:700; color:#B91C1C;">⚡⚡⚡ High</span><br>🔥 ⚠️</td>
+                <td><span class="dose">25–50 mg PO TID</span><br><small>(Acute Gout: <span class="dose">50 mg TID</span>)</small></td>
+                <td><strong>COX-1 > COX-2.</strong> Exceptionally potent anti-inflammatory & urate crystal inhibitor. Gold standard for acute gout and ankylosing spondylitis. High CNS adverse effects (severe frontal headache in 20–50%) and high GI risk.</td>
+            </tr>
+            <tr>
+                <td><strong>Diclofenac</strong><br><small class="brand">Voltaren, Voltral, Dicloran</small></td>
+                <td><span style="font-weight:700; color:#0967B0;">⚡⚡ High</span><br>⚡ 🫀</td>
+                <td><span class="dose">50 mg PO q8h</span> or <span class="dose">75 mg IM/IV</span><br><small>Max <span class="dose">150 mg/day</span></small></td>
+                <td><strong>Mildly COX-2 Preferential.</strong> High analgesic & anti-inflammatory potency (NNT = 2.3 for 50 mg). High tissue accumulation in synovial fluid. <em>Note:</em> CV risk profile closely resembles COX-2 selective coxibs.</td>
+            </tr>
+            <tr>
+                <td><strong>Naproxen</strong><br><small class="brand">Naprosyn, Synflex</small></td>
+                <td><span style="font-weight:700; color:#0967B0;">⚡⚡ Mod-High</span><br>🛡️ ⌛</td>
+                <td><span class="dose">250–500 mg PO BID</span><br><small>Max <span class="dose">1,250 mg/day</span></small></td>
+                <td><strong>Balanced COX-1/COX-2.</strong> Long half-life (~14h) allowing BID dosing. <strong>Lowest cardiovascular risk</strong> among all traditional NSAIDs. Standard choice for chronic MSK and orthopedic pain. NNT = 2.7 (500 mg).</td>
+            </tr>
+            <tr>
+                <td><strong>Ibuprofen</strong><br><small class="brand">Brufen, Nurofen, Arinac</small></td>
+                <td><span style="font-weight:700; color:#0F7E7A;">⚡ Mild-Mod</span><br>🟢 💊</td>
+                <td><span class="dose">400 mg PO q6–8h</span><br><small>Max <span class="dose">2,400 mg/day</span> (OTC: 1,200 mg)</small></td>
+                <td><strong>Balanced COX-1/COX-2.</strong> Excellent overall safety profile at OTC doses (≤1,200 mg/day). First-line for acute mild-to-moderate pain. NNT = 2.5 (400 mg). Short half-life (~2h). <em>Note:</em> Competes with aspirin for COX-1 binding; take aspirin 30 min before ibuprofen.</td>
+            </tr>
+            <tr>
+                <td><strong>Mefenamic Acid</strong><br><small class="brand">Ponstan</small></td>
+                <td><span style="font-weight:700; color:#0F7E7A;">⚡ Mild-Mod</span><br>🩸 💊</td>
+                <td><span class="dose">500 mg PO TID</span><br><small>Max <span class="dose">1,500 mg/day</span></small></td>
+                <td><strong>COX-1/COX-2 + Direct Prostaglandin Receptor Blocker.</strong> Specifically effective in primary dysmenorrhea and menorrhagia due to dual mechanism. Short-term use only (&le;7 days) due to risk of diarrhea and hemolytic anemia.</td>
+            </tr>
+            <tr>
+                <td><strong>Piroxicam</strong><br><small class="brand">Feldene, Brexin</small></td>
+                <td><span style="font-weight:700; color:#0967B0;">⚡⚡ High</span><br>⚠️ ⌛</td>
+                <td><span class="dose">10–20 mg PO OD</span><br><small>Max <span class="dose">20 mg/day</span></small></td>
+                <td><strong>COX-1 > COX-2.</strong> Ultra-long half-life (~50h) providing once-daily dosing. High anti-inflammatory strength, but highest GI toxicity & severe cutaneous reactions (EMA restrictions limit use to chronic inflammatory arthritis). NNT = 2.7.</td>
+            </tr>
+            <tr>
+                <td><strong>Meloxicam</strong></td>
+                <td><span style="font-weight:700; color:#0967B0;">⚡⚡ Mod-High</span><br>⚖️ ⌛</td>
+                <td><span class="dose">7.5–15 mg PO OD</span><br><small>Max <span class="dose">15 mg/day</span></small></td>
+                <td><strong>Preferential COX-2 (at 7.5 mg).</strong> Shows lower GI toxicity than piroxicam/indomethacin at standard doses. Excellent once-daily maintenance therapy for Osteoarthritis and Rheumatoid Arthritis. COX-2 selectivity is lost at 15 mg doses.</td>
+            </tr>
+            <tr>
+                <td><strong>Aspirin (ASA)</strong><br><small class="brand">Disprin, Aspro</small></td>
+                <td><span style="font-weight:700; color:#6B7394;">⚡ Low-Mod</span><br>🩸 🛑</td>
+                <td><span class="dose">300–600 mg PO q4–6h</span> (Analgesic)<br><span class="dose">75–150 mg PO OD</span> (Antiplatelet)</td>
+                <td><strong>Irreversible COX-1 & COX-2 inhibitor.</strong> Antiplatelet action lasts life of platelet (7–10 days). Analgesic at 600–1,200 mg (NNT = 2.4). Anti-inflammatory only at high toxic doses (&gt;3g/day; rarely used now). Contraindicated in children &lt;16 yrs (Reye's Syndrome).</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- ── COX-2 Selective Inhibitors (Coxibs) Table ── -->
+<div class="sub-h">COX-2 Selective Inhibitors (Coxibs)</div>
+<div class="tbl-wrap">
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th style="width: 22%;">Drug & Brands</th>
+                <th style="width: 15%;">Potency & Icons</th>
+                <th style="width: 28%;">Standard Dosing</th>
+                <th>Clinical Profile, Selectivity & Efficacy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Etoricoxib</strong><br><small class="brand">Arcoxia, Toroxx</small></td>
+                <td><span style="font-weight:700; color:#B91C1C;">⚡⚡⚡ Very High</span><br>🫀 ⚡</td>
+                <td><span class="dose">30–60 mg PO OD</span> (OA/RA)<br><span class="dose">90–120 mg PO OD</span> (Gout/Acute Pain)</td>
+                <td><strong>Highest COX-2 selectivity (~106-fold over COX-1).</strong> Extremely rapid onset and potent analgesia. Top rank in Oxford League Table (NNT = 1.6 at 120 mg). Low GI bleeding risk, but <strong>highest hypertension & CV thrombotic risk</strong> among coxibs. Contraindicated in uncontrolled HTN (&gt;140/90).</td>
+            </tr>
+            <tr>
+                <td><strong>Celecoxib</strong><br><small class="brand">Celebrex, Celbexx</small></td>
+                <td><span style="font-weight:700; color:#0967B0;">⚡⚡ Mod-High</span><br>🛡️ 🚫</td>
+                <td><span class="dose">100–200 mg PO BID</span> or <span class="dose">200 mg OD</span><br><small>Max <span class="dose">400 mg/day</span></small></td>
+                <td><strong>Moderate COX-2 Selectivity (~30-fold).</strong> Reduces upper GI ulceration risk by 50–75% vs non-selective NSAIDs. Moderate CV risk profile at standard doses (&le;200 mg/day). NNT = 2.1 (400 mg). <strong>Contraindicated:</strong> Sulfonamide drug allergy (contains a sulfonamide moiety).</td>
+            </tr>
+            <tr>
+                <td><strong>Parecoxib</strong><br><small class="brand">Dynastat</small></td>
+                <td><span style="font-weight:700; color:#B91C1C;">⚡⚡⚡ High</span><br>💉 🫀</td>
+                <td><span class="dose">40 mg IV/IM q12h</span><br><small>Max <span class="dose">80 mg/day</span></small></td>
+                <td><strong>Injectable Prodrug of Valdecoxib.</strong> Dedicated parenteral COX-2 inhibitor for acute perioperative pain management without impairing platelet function or increasing surgical bleeding risk. Contraindicated post-CABG surgery.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+            <div class="alert alert-danger">
+                <span class="alert-icon"><i class="fas fa-triangle-exclamation"></i></span>
+                <div class="alert-body">
+                    <h4>NSAID Contraindications &amp; Adverse Effects</h4>
+                    <p><strong>GI Toxicity:</strong> PGE₂ protects gastric mucosa; COX-1 inhibition → ulcers, erosions, GI bleeding. <strong>The risk of an ulcer is 10–15× higher if NSAIDs and glucocorticoids are administered simultaneously.</strong> Co-prescribe a PPI (omeprazole 20 mg OD) for high-risk patients. <span class="fc-added">Updated</span><br><br>
+                    <strong>Renal Impairment:</strong> Prostaglandins maintain afferent arteriolar tone via vasodilation under low-perfusion states. NSAIDs reduce GFR; risk of acute kidney injury, fluid retention, hyperkalemia, and worsening hypertension. Prolonged use can lead to <strong>analgesic nephropathy</strong> (tubulointerstitial nephritis and papillary necrosis). <span class="fc-added">Updated</span><br><br>
+                    <strong>Cardiovascular Risk:</strong> COX-2 selective agents reduce PGI₂ (vasodilatory/antithrombotic) without reducing TXA₂ (platelets possess mostly COX-1), tipping the balance toward thrombosis. Naproxen has the lowest CV risk among non-selective NSAIDs.<br><br>
+                    <strong>Surgical Precaution:</strong> Discontinue reversible NSAIDs 1–3 days prior to surgery due to bleeding risk (except low-dose aspirin, which is typically continued for secondary cardiovascular prevention). <span class="fc-added">Added</span><br><br>
+                    <strong>AERD (Aspirin-Exacerbated Respiratory Disease):</strong> ~10% of asthmatics. COX-1 inhibition shunts arachidonic acid to the lipoxygenase (5-LOX) pathway, producing excess leukotrienes.</p>
+                </div>
+            </div>
+
+            <div class="alert alert-note">
+                <span class="alert-icon"><i class="fas fa-circle-info"></i></span>
+                <div class="alert-body">
+                    <h4>Ketorolac Dosing Clarification</h4>
+                    <p>The original 30 mg IM starting dose has been revised to mitigate renal and GI risk. 
+                    <strong>Parenteral Dosing (IV/IM):</strong> FDA guidelines recommend <strong>15 mg IV/IM q6h</strong> (max 60 mg/day) for high-risk patients (elderly &ge;65 yrs, low body weight &lt;50 kg, or moderate-to-severe renal impairment), and 30 mg q6h (max 120 mg/day) for standard adults. 
+                    <strong>Oral Dosing (Continuation Only):</strong> 10 mg q4–6h (max 40 mg/day) for all patients.<br><br>
+                    <strong>Duration &amp; Daily Limits — Regional Variations:</strong>
+                    <br>• <strong>FDA (US):</strong> Max combined duration of <strong>5 days</strong>. Max parenteral dose: 120 mg/day (60 mg/day for high-risk).
+                    <br>• <strong>BNF (UK):</strong> Max parenteral duration of <strong>2 days (48 hours)</strong>. Max parenteral dose: 90 mg/day (60 mg/day for high-risk).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opioids -->
+    <section id="opioids">
+        <h2 class="section-title t-opioid">
+            <span class="icon-badge"><i class="fas fa-syringe"></i></span>
+            Opioids
+        </h2>
+        <div class="card stripe-violet">
+            <p><strong>Mechanism:</strong> Opioids act as agonists at heptahelical G-protein coupled receptors (GPCRs): Mu (μ), Kappa (κ), and Delta (δ). Binding causes reduction of synaptic transmission via two main pathways: <strong>Presynaptic inhibition</strong> (closure of voltage-gated Ca²⁺ channels → decreased release of acetylcholine, noradrenaline, serotonin, glutamate, and substance P) and <strong>Postsynaptic inhibition</strong> (opening of K⁺ channels → hyperpolarisation). <span class="fc-added">Updated</span></p>
+
+            <p><strong>Receptor Affinity &amp; Ceiling Effect:</strong> Receptor affinity does not always correspond to potency. Partial agonists (like buprenorphine) exhibit a <em>ceiling effect</em> — beyond a certain dose, the functional response does not increase, but side effects may. Additionally, combining opioids of different potencies (e.g., partial with full agonists) can lead to competitive inhibition and precipitate withdrawal. <span class="fc-added">Added</span></p>
+
+            <div class="sub-h">Weak Opioids &amp; Partial Agonists (Step II)</div>
+            <ul>
+                <li>
+                    <strong>Tramadol</strong> <span class="brand">Tramal · Tonoflex · Ultram</span> — Dose: <span class="dose">50–100 mg PO/IV q6h</span> (Max <span class="dose">400 mg/day</span>; <span class="dose">300 mg/day</span> in elderly)<br>
+                    Dual mechanism: weak Mu agonist + inhibition of serotonin and norepinephrine reuptake. Active metabolite (M1) has higher Mu affinity; production is CYP2D6-dependent. Lowers seizure threshold.
+                </li>
+                <li>
+                    <strong>Codeine</strong> <span class="brand">Codipar · Tylenol with Codeine</span> — Dose: <span class="dose">30–60 mg PO q4–6h</span> (Max <span class="dose">240 mg/day</span>)<br>
+                    A prodrug; requires CYP2D6 conversion to morphine. Ultra-rapid metabolisers risk morphine toxicity.
+                </li>
+                <li>
+                    <strong>Buprenorphine</strong> <span class="brand">Temgesic · Subutex (SL) · Butrans (patch)</span> — Partial Mu agonist with very high receptor affinity and slow dissociation. Analgesic doses: <span class="dose">200–400 mcg SL q6–8h</span> or <span class="dose">5–20 mcg/h TD patch (q7 days)</span>. Exhibits a ceiling on respiratory depression. <em>Note: Antagonisation requires extremely high doses of naloxone or naltrexone due to its high receptor affinity.</em> <span class="fc-added">Updated</span>
+                </li>
+                <li>
+                    <strong>Mixed Agonist-Antagonists:</strong> <strong>Nalbuphine</strong> (Mu partial antagonist, Kappa agonist), <strong>Butorphanol</strong>, and <strong>Pentazocine</strong>. They have a ceiling effect for respiratory depression making them safer than pure Mu agonists, but will precipitate withdrawal if given to a patient dependent on full agonists. <span class="fc-added">Updated</span>
+                </li>
+            </ul>
+
+            <div class="alert alert-caution">
+                <span class="alert-icon"><i class="fas fa-triangle-exclamation"></i></span>
+                <div class="alert-body">
+                    <h4>Tramadol Safety Risks</h4>
+                    <p><strong>Seizure Risk:</strong> Tramadol lowers seizure threshold via SNRI mechanism. Avoid in epilepsy, head injury, or concurrent use with SSRIs/SNRIs/MAOIs/TCAs.<br>
+                    <strong>Serotonin Syndrome:</strong> Triad of agitation, autonomic instability, and neuromuscular abnormalities (clonus). Highest risk with MAOIs — treat with benzodiazepines and cyproheptadine (serotonin antagonist).<br>
+                    <strong>CYP2D6 Polymorphism:</strong> Poor metabolisers (&sim;7–10% Europeans) get no analgesia; ultra-rapid metabolisers risk toxicity.</p>
+                </div>
+            </div>
+
+            <div class="sub-h">Strong Opioids (Step III)</div>
+            <ul>
+                <li><strong>Morphine</strong> <span class="brand">MST Continus · Oramorph · Zomorph</span> — Dose: <span class="dose">10 mg IV/IM q4h</span> or <span class="dose">15–30 mg PO q4h</span> (IR); <span class="dose">30–60 mg PO q12h</span> (SR/MR formulation). Gold-standard full Mu agonist. Active metabolite (M6G) accumulates in renal failure.</li>
+                <li><strong>Fentanyl</strong> <span class="brand">Sublimaze · Duragesic patch</span> — Dose: <span class="dose">25–100 mcg IV q1–2h</span> or TD patch <span class="dose">12–100 mcg/h q72h</span>. Highly lipophilic (100× more potent than morphine IV); rapid onset and CNS penetration. Continuous administration leads to significant accumulation. No active renal metabolites — preferred in renal failure. <span class="fc-added">Updated</span></li>
+                <li><strong>Oxycodone</strong> <span class="brand">OxyContin · Oxynorm</span> — Dose: <span class="dose">5–10 mg PO q4–6h</span> (IR); <span class="dose">10–40 mg PO q12h</span> (CR). Oral bioavailability ~60–87% (higher than morphine). Prolonged use can lead to hypogonadism.</li>
+                <li><strong>Hydromorphone (Dilaudid)</strong> — Dose: <span class="dose">1–4 mg PO q4–6h</span>; <span class="dose">0.2–1 mg IV/SC q2–4h</span>. ~5× more potent than morphine (oral). Useful in renal failure (not metabolised via CYP450 enzymes).</li>
+                <li><strong>Methadone</strong> <span class="brand">Physeptone</span> — Complex pharmacokinetics; long variable half-life (8–150h). Also an NMDA antagonist. <strong>Risk of QTc prolongation and torsade de pointes</strong> — baseline ECG essential. <span class="fc-added">Updated</span></li>
+                <li><strong>Meperidine (Pethidine)</strong> <span class="fc-added">Added</span> — Dose: <span class="dose">50–150 mg PO/IM q3–4h</span>. Full agonist. <strong>Unique properties:</strong> Causes mydriasis (unlike other opioids which cause miosis) and has antimuscarinic effects. Toxic metabolite (normeperidine) lowers the seizure threshold. Increases risk of serotonin syndrome. Very limited clinical utility today.</li>
+            </ul>
+
+            <div class="sub-h">Equianalgesic Dosing (Approximate)</div>
+            <div class="tbl-wrap">
+                <table class="tbl">
+                    <thead><tr><th>Opioid</th><th>Parenteral (IV/IM)</th><th>Oral (PO)</th><th>Notes</th></tr></thead>
+                    <tbody>
+                        <tr><td>Morphine</td><td>10 mg</td><td>30 mg</td><td>Reference standard; 3:1 oral:parenteral ratio</td></tr>
+                        <tr><td>Oxycodone</td><td>10 mg IV</td><td>15–20 mg PO</td><td>~1.5× oral morphine potency</td></tr>
+                        <tr><td>Hydromorphone</td><td>2 mg</td><td>7.5 mg</td><td>High-potency; use with care in conversion</td></tr>
+                        <tr><td>Fentanyl</td><td>100 mcg (0.1 mg)</td><td>N/A (transmucosal/TD available)</td><td>TD 25 mcg/h patch ≈ oral morphine 60–90 mg/day</td></tr>
+                        <tr><td>Tramadol</td><td>100 mg</td><td>100–150 mg</td><td>1:1 IV:PO; equivalent to ~10 mg oral morphine</td></tr>
+                        <tr><td>Codeine</td><td>—</td><td>200 mg</td><td>Weak equivalent; ~30 mg codeine ≈ 3 mg morphine</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius);padding:14px 16px;margin:14px 0;">
+                <p class="sub-h" style="margin-top:0;">Adverse Effects</p>
+                <p style="margin:0;font-size:.9rem;">Respiratory depression (most dangerous; dose-dependent), constipation and miosis (<strong>no tolerance develops</strong> to these two — except meperidine which causes mydriasis), nausea/vomiting, urinary retention, sphincter of Oddi dysfunction (biliary spasm), stimulation of prolactin and ADH secretion, pruritus, tolerance, physical dependence, and hyperalgesia (OIH). Opioid-induced CNS depression is intensified when combined with alcohol or benzodiazepines. <span class="fc-added">Updated</span></p>
+            </div>
+
+            <div class="sub-h">Opioid Receptor Antagonists <span class="fc-added">Added</span></div>
+            <ul>
+                <li><strong>Naloxone:</strong> Rapid onset, short half-life (30–90 min). Reverses acute respiratory and CNS depression. Dose for respiratory depression: <span class="dose">0.04–0.4 mg IV q2–3 min</span> titrated.</li>
+                <li><strong>Naltrexone:</strong> Long half-life (parent drug 4–10h; its highly active metabolite 6-β-naltrexol has a half-life of ~13h). Used PO or IM for the prevention of opioid relapse (<em>"nalTRACKsone gets you back on track"</em>) and alcohol use disorder.</li>
+                <li><strong>PAMORAs (Methylnaltrexone, Naloxegol, Naldemedine):</strong> Peripherally acting μ-opioid receptor antagonists. They do not cross the blood-brain barrier — used specifically to treat opioid-induced constipation (OIC) without reversing central analgesia.</li>
+            </ul>
+
+            <div class="alert alert-danger">
+                <span class="alert-icon"><i class="fas fa-triangle-exclamation"></i></span>
+                <div class="alert-body">
+                    <h4>Critical Half-Life Warning in Opioid Reversal</h4>
+                    <p>Naloxone half-life is only 30–90 min. All opioids (except some IR formulations) outlast naloxone. The patient <em>must</em> be monitored for re-narcotisation for at least 4–6 hours after the last naloxone dose, or a naloxone infusion initiated. <strong>Intranasal Naloxone</strong> (4 mg/0.1 mL) is approved for community use and opioid overdose first response; onset 8–13 min.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adjuvants -->
+    <section id="adjuvants">
+        <h2 class="section-title t-adjuvant">
+            <span class="icon-badge"><i class="fas fa-prescription-bottle-medical"></i></span>
+            Adjuvants &amp; Co-Analgesics
+        </h2>
+        <div class="card stripe-amber">
+            <p>Drugs not primarily classified as analgesics but with significant efficacy for specific pain types — particularly neuropathic pain, musculoskeletal pain, and as opioid-sparing agents in multimodal regimens.</p>
+
+            <div class="tbl-wrap">
+                <table class="tbl">
+                    <thead><tr><th style="width:26%">Drug Class</th><th>Agents &amp; Dosing</th><th style="width:28%">Key Notes</th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Gabapentinoids</strong><br><small>First-line neuropathic pain</small></td>
+                            <td>
+                                <strong>Pregabalin:</strong> <span class="dose">75–150 mg BID</span> (Max <span class="dose">600 mg/day</span>) — Lyrica, Zeegap<br>
+                                <strong>Gabapentin:</strong> <span class="dose">300 mg TID</span> (Max <span class="dose">3,600 mg/day</span>) — Neogab, Neurontin
+                            </td>
+                            <td>Block α₂δ subunit of voltage-gated Ca²⁺ channels → reduces excitatory neurotransmitter release. Pregabalin has more predictable linear pharmacokinetics. Both require renal dose reduction (renally cleared).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>TCAs (Tricyclics)</strong></td>
+                            <td>
+                                <strong>Amitriptyline:</strong> <span class="dose">10–25 mg PO at night</span> (Max <span class="dose">75 mg/day</span> for pain) — Tryptanol<br>
+                                <strong>Nortriptyline:</strong> <span class="dose">10–75 mg nocte</span>
+                            </td>
+                            <td>Block Na⁺ channels + inhibit serotonin/NE reuptake. Nortriptyline has fewer anticholinergic SE than amitriptyline. Contraindicated in recent MI, QTc prolongation, urinary retention, closed-angle glaucoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>SNRIs</strong></td>
+                            <td>
+                                <strong>Duloxetine:</strong> <span class="dose">30–60 mg OD</span> (Max <span class="dose">120 mg/day</span>) — Cymbalta<br>
+                                <strong>Venlafaxine:</strong> <span class="dose">37.5–225 mg OD</span>
+                            </td>
+                            <td>Duloxetine: FDA-approved for diabetic neuropathy, fibromyalgia, and MSK pain. Avoid abrupt discontinuation (withdrawal syndrome). Venlafaxine shows evidence for neuropathic pain at NE-dominant doses (&gt;150 mg).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Muscle Relaxants</strong></td>
+                            <td>
+                                <strong>Tizanidine:</strong> <span class="dose">2–4 mg TID</span> — Sirdalud<br>
+                                <strong>Baclofen:</strong> <span class="dose">5–20 mg TID</span> — Lioresal<br>
+                                <strong>Thiocolchicoside:</strong> <span class="dose">4 mg IM q12h</span> — Muscoril
+                            </td>
+                            <td>Tizanidine: α₂ agonist; hepatotoxicity risk — LFTs if long-term. Baclofen: GABA-B agonist; abrupt withdrawal can precipitate seizures/hallucinations. Thiocolchicoside: Semi-synthetic colchicine derivative. IM therapy is restricted to a maximum of 5 consecutive days (EMA) because of aneugenicity risk. Maximum IM dose is 4 mg every 12 hours (8 mg/day). Available in Pakistan.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>NMDA Antagonists</strong></td>
+                            <td>
+                                <strong>Ketamine:</strong> Sub-anaesthetic <span class="dose">0.1–0.5 mg/kg IV infusion</span><br>
+                                <strong>Memantine:</strong> <span class="dose">5–20 mg OD PO</span>
+                            </td>
+                            <td>Ketamine blocks NMDA glutamate receptors → reduces central sensitisation and opioid hyperalgesia (OIH). Also useful in opioid-tolerant patients. Psychomimetic SE (dissociation, hallucinations) mitigated by midazolam premedication.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Topical Agents</strong></td>
+                            <td>
+                                <strong>Lidocaine 5% patch:</strong> Apply over painful area ≤12h on/12h off — Versatis<br>
+                                <strong>Capsaicin 8% patch:</strong> Single 60-min application q3 months — Qutenza<br>
+                                <strong>Diclofenac gel 1%:</strong> Apply QID — Voltaren Emulgel
+                            </td>
+                            <td>Lidocaine patch approved for post-herpetic neuralgia; minimal systemic absorption. Capsaicin depletes substance P from nociceptors (TRPV1 desensitisation) — requires protective gloves during application. Topical diclofenac achieves local tissue levels with minimal GI/renal risk.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Corticosteroids</strong></td>
+                            <td>
+                                <strong>Dexamethasone:</strong> <span class="dose">4–8 mg PO/IV OD</span><br>
+                                <strong>Prednisolone:</strong> <span class="dose">20–40 mg PO OD</span>
+                            </td>
+                            <td>Broad anti-inflammatory effects via phospholipase A₂ inhibition (reduces all eicosanoids, including PGs and leukotrienes). Useful for cancer pain (bone metastases, nerve compression), short-term acute flares. Long-term use: immunosuppression, osteoporosis, Cushing's syndrome.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Local Anesthetics -->
+    <section id="local">
+        <h2 class="section-title t-local">
+            <span class="icon-badge"><i class="fas fa-bandage"></i></span>
+            Local Anesthetics
+        </h2>
+        <div class="card stripe-green">
+            <p><strong>Mechanism:</strong> Reversible blockade of voltage-gated Na⁺ channels from the intracellular side of the nerve membrane. The drug must first cross the membrane in its unionised (lipid-soluble) form, then re-ionise intracellularly to block the channel. Therefore, acidic environments (infected tissue, pH &lt;7.0) reduce efficacy by trapping the drug in its ionised (membrane-impermeable) form — <em>this is why LA is less effective in abscesses</em>.</p>
+
+            <div class="sub-h">Classification &amp; Maximum Doses</div>
+            <div class="tbl-wrap">
+                <table class="tbl">
+                    <thead><tr><th>Class</th><th>Drug</th><th>Max Dose (Plain)</th><th>Max Dose (+Epinephrine)</th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3"><strong>Amides</strong><br><small>Metabolised by liver (CYP enzymes)</small></td>
+                            <td>Lidocaine 1–2%</td>
+                            <td><span class="dose">BNF: 3 mg/kg</span><br><span class="dose">FDA/ASRA: 4.5 mg/kg (max 300 mg)</span></td>
+                            <td><span class="dose">7 mg/kg</span></td>
+                        </tr>
+                        <tr>
+                            <td>Bupivacaine 0.25–0.5%</td>
+                            <td><span class="dose">2 mg/kg</span></td>
+                            <td><span class="dose">3 mg/kg</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ropivacaine 0.2–1%</td>
+                            <td><span class="dose">3 mg/kg</span></td>
+                            <td><span class="dose">4 mg/kg</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Esters</strong><br><small>Metabolised by plasma cholinesterase</small></td>
+                            <td>Procaine / Chloroprocaine / Tetracaine</td>
+                            <td><span class="dose">Varies</span></td>
+                            <td><span class="dose">Varies</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="alert alert-caution">
+                <span class="alert-icon"><i class="fas fa-circle-info"></i></span>
+                <div class="alert-body">
+                    <h4>Epinephrine (Adrenaline) Adjunct</h4>
+                    <p>Vasoconstrictors (1:100,000–1:200,000 epinephrine) slow systemic absorption, prolonging block duration and reducing peak plasma concentration. <strong>Contraindicated</strong> in ring blocks of digits, penis, nose, ear (end-arteries — risk of ischaemic necrosis). Also avoid in patients on MAOIs or non-selective beta-blockers due to hypertensive crisis risk.</p>
+                </div>
+            </div>
+
+            <div class="alert alert-info">
+                <span class="alert-icon"><i class="fas fa-circle-info"></i></span>
+                <div class="alert-body">
+                    <h4>Ropivacaine vs Bupivacaine</h4>
+                    <p>Ropivacaine is a pure S(-)-enantiomer, producing less cardiac and CNS toxicity than racemic bupivacaine. It preferentially blocks Aδ and C fibres over motor fibres at lower concentrations — useful for <em>analgesia without motor blockade</em> in labour epidurals (0.1–0.2%). Bupivacaine is still preferred for surgical spinal anaesthesia due to denser block.</p>
+                </div>
+            </div>
+
+            <div class="alert alert-danger">
+                <span class="alert-icon"><i class="fas fa-triangle-exclamation"></i></span>
+                <div class="alert-body">
+                    <h4>Local Anaesthetic Systemic Toxicity (LAST)</h4>
+                    <p>Caused by accidental intravascular injection or overdose exceeding maximum safe dose. Progresses through CNS toxicity then cardiovascular collapse.<br><br>
+                    <strong>CNS Prodrome:</strong> Tinnitus, perioral numbness, metallic taste, light-headedness, visual disturbances → seizures → CNS depression.<br>
+                    <strong>Cardiovascular:</strong> Widened QRS, VT/VF, severe bradycardia, cardiovascular collapse (bupivacaine most cardiotoxic due to lipophilicity and slow unbinding).<br><br>
+                    <strong>Management:</strong> Stop injection immediately. Call for help. Airway management (100% O₂). BLS/ACLS as needed. <strong>Antidote: IV Lipid Emulsion 20% (ILE)</strong> — Bolus <span class="dose">1.5 mL/kg</span> over 1 min, then infusion <span class="dose">0.25 mL/kg/min</span>. <br>
+                    <strong>Avoid</strong> in LAST: Vasopressin, CCBs, Beta-blockers, and Lidocaine (for arrhythmia). Propofol is NOT a substitute for ILE (insufficient lipid content, worsens haemodynamic instability).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clinical Scenarios -->
+    <section id="scenarios">
+        <h2 class="section-title t-generic">
+            <span class="icon-badge"><i class="fas fa-hospital"></i></span>
+            Specific Clinical Scenarios
+        </h2>
+        <div class="card">
+            <div class="sub-h" style="margin-top:0">Acute &amp; Post-Operative Pain</div>
+            <p>Utilise <strong>Multimodal Analgesia (MMA)</strong> — combining drugs from different classes targeting multiple mechanisms to achieve superior analgesia while minimising opioid-related adverse effects (ERAS principle). A standard MMA regimen may include: regular Paracetamol 1g q6h + NSAID (if no contraindication) + wound site infiltration with LA + opioid PRN for breakthrough pain. Studies show MMA reduces opioid consumption by 20–60%.</p>
+
+            <div class="sub-h">Cancer &amp; Chronic Pain</div>
+            <p>Follow the WHO Analgesic Ladder. Use long-acting / extended-release opioids for <em>baseline</em> pain (e.g., MST Continus 12-hourly) supplemented with short-acting IR opioids PRN for <em>breakthrough</em> pain (breakthrough dose = 10–15% of total daily opioid dose). Reassess regularly; titrate upward if requiring &gt;3–4 breakthrough doses/day.</p>
+
+            <div class="sub-h">Neuropathic Pain</div>
+            <p>Standard analgesics (NSAIDs, Paracetamol) are generally ineffective as monotherapy. First-line treatments (NeuPSIG 2015 guidelines): Gabapentinoids, TCAs (amitriptyline/nortriptyline), or SNRIs (duloxetine/venlafaxine). Topical Lidocaine and Capsaicin are first-line for localised neuropathic pain (e.g., post-herpetic neuralgia). Tramadol and strong opioids are second- or third-line due to risk-benefit profile.</p>
+
+            <div class="alert alert-info">
+                <span class="alert-icon"><i class="fas fa-circle-info"></i></span>
+                <div class="alert-body">
+                    <h4>Acute Migraine Management</h4>
+                    <p><strong>Step 1 (mild-moderate):</strong> Aspirin 900 mg + metoclopramide 10 mg (antiemetic and improves gastric motility) OR Ibuprofen 400 mg OR Naproxen 500 mg.<br>
+                    <strong>Step 2 (moderate-severe or Step 1 failure):</strong> Triptans (5-HT₁B/D agonists) — Sumatriptan <span class="dose">50–100 mg PO</span> or <span class="dose">6 mg SC</span>. Avoid in uncontrolled hypertension, IHD, or vasospastic angina.<br>
+                    <strong>Avoid opioids</strong> for acute migraine — they increase risk of medication-overuse headache (MOH).</p>
+                </div>
+            </div>
+
+            <div class="alert alert-info">
+                <span class="alert-icon"><i class="fas fa-circle-info"></i></span>
+                <div class="alert-body">
+                    <h4>Acute Gout Management</h4>
+                    <p>First-line: High-dose NSAID (e.g., Indomethacin <span class="dose">50 mg TID × 5 days</span> or Naproxen <span class="dose">500 mg BID × 5 days</span>). Alternatively Colchicine <span class="dose">1 mg then 0.5 mg 1h later</span> (BNF low-dose regimen, as effective as high-dose with fewer GI SE). Oral prednisolone 30–35 mg OD × 5 days if NSAIDs/Colchicine are contraindicated. Ice packs and joint rest provide adjunct relief.</p>
+                </div>
+            </div>
+
+            <div class="alert alert-info">
+                <span class="alert-icon"><i class="fas fa-circle-info"></i></span>
+                <div class="alert-body">
+                    <h4>Procedural / Procedural Sedation Pain</h4>
+                    <p>Sub-dissociative ketamine (<span class="dose">0.3–0.5 mg/kg IV</span> over 15 min) provides potent analgesia while preserving airway reflexes and spontaneous respiration — useful in the Emergency Department for fracture reduction, wound care, and pelvic exams. Adjunctive midazolam (1–2 mg IV) reduces dysphoric emergence reactions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Populations -->
+    <section id="populations">
+        <h2 class="section-title t-generic">
+            <span class="icon-badge"><i class="fas fa-people-group"></i></span>
+            Special Populations &amp; Drug Interactions
+        </h2>
+        <div class="card">
+            <div class="tbl-wrap">
+                <table class="tbl">
+                    <thead><tr><th style="width:22%">Population</th><th>Key Considerations</th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Elderly (&gt;65 yrs)</strong></td>
+                            <td>Principle: "Start low, go slow." Increased susceptibility to NSAID-induced GI bleeding and acute kidney injury. Highly sensitive to opioid-related harm due to <strong>decreased renal clearance (even in the absence of known renal disease)</strong>, polypharmacy, and fall risk. The <strong>Beers Criteria</strong> (AGS 2023) recommends avoiding indomethacin and ketorolac, and using caution with long-acting benzodiazepines combined with opioids. Paracetamol is the preferred first-line analgesic. <span class="fc-added">Updated</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Renal Failure (CKD / AKI)</strong></td>
+                            <td><strong>Avoid all NSAIDs</strong> (reduce GFR, worsen fluid retention). Gabapentinoids and Tramadol require strict dose reduction (renally cleared). Morphine accumulates active metabolites (M6G) — avoid or reduce dose significantly. <strong>Preferred opioids:</strong> Fentanyl and Buprenorphine (no renally excreted active metabolites). Paracetamol is safe. Methadone is complex — specialist input required.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hepatic Failure</strong></td>
+                            <td>Limit Paracetamol to max <span class="dose">2 g/day</span> (mild-moderate disease). In severe hepatic failure (Child-Pugh C) — avoid entirely. Avoid NSAIDs: risk of GI bleeding (coagulopathy), hepatorenal syndrome, and fluid retention. Opioids accumulate due to reduced first-pass metabolism and protein binding — use with extreme caution; Alfentanil and Fentanyl have shorter context-sensitive half-lives and may be preferable IV.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pregnancy</strong></td>
+                            <td>
+                                <strong>Paracetamol:</strong> Still the safest for acute pain — use minimum effective dose, short-term. Guidance evolving (see above).<br>
+                                <strong>NSAIDs:</strong> Use with caution in 1st trimester; <strong>strictly avoid in 2nd and 3rd trimesters</strong> (FDA warning — can inhibit uterine contractility and cause premature closure of the ductus arteriosus / oligohydramnios). <span class="fc-added">Updated</span><br>
+                                <strong>Opioids:</strong> Short-term use acceptable under supervision. Chronic use → Neonatal Opioid Withdrawal Syndrome (NOWS). Avoid long-acting formulations near delivery if possible.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Paediatrics</strong></td>
+                            <td>All dosing must be weight-based (mg/kg). <strong>Aspirin contraindicated &lt;16 years</strong> due to Reye's syndrome risk (Paracetamol is the preferred antipyretic in pediatric viral infections). <strong>Codeine and Tramadol contraindicated &lt;12 years</strong> (EMA/FDA 2013–2015) due to unpredictable CYP2D6 ultra-rapid metabolism causing respiratory depression. Codeine also contraindicated for post-tonsillectomy/adenoidectomy analgesia up to age 18. Ibuprofen is safe from 3 months of age. <span class="fc-added">Updated</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Substance Use Disorder</strong></td>
+                            <td>Opioid-dependent patients have altered pain sensitivity (opioid-induced hyperalgesia). Avoid abrupt opioid discontinuation. If on opioid agonist therapy (methadone, buprenorphine), continue maintenance dose and add short-acting opioids for acute pain (may require higher doses). Maximise non-opioid multimodal analgesia. Engage addiction specialist where possible.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Obesity / Bariatric Surgery</strong></td>
+                            <td>Avoid routine dose-calculation by total body weight for opioids — use adjusted body weight (IBW + 0.4 × excess weight) for IV opioids. Avoid oral sustained-release formulations post-bariatric surgery (unpredictable absorption due to shortened GI tract). Increased OSA risk — reduce opioids; use regional techniques and non-opioid analgesia where possible.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="alert alert-caution">
+                <span class="alert-icon"><i class="fas fa-triangle-exclamation"></i></span>
+                <div class="alert-body">
+                    <h4>Critical Drug Interactions</h4>
+                    <p>
+                    <strong>Opioids + Benzodiazepines/CNS depressants:</strong> FDA Black Box Warning (2016). Concomitant use increases risk of profound respiratory depression and death. Monitor closely; use only when no alternatives exist.<br><br>
+                    <strong>Tramadol + SSRIs/MAOIs:</strong> Serotonin syndrome risk. Avoid co-prescription; if essential, use extreme caution and monitor for triad (hyperthermia, agitation, clonus).<br><br>
+                    <strong>NSAIDs + Anticoagulants (warfarin, DOACs):</strong> Increased bleeding risk (GI tract and displacement from plasma proteins). Use topical NSAIDs or paracetamol preferentially.<br><br>
+                    <strong>NSAIDs + ACE inhibitors/ARBs + Diuretics:</strong> "Triple Whammy" combination — high risk of AKI. Avoid concurrent use, especially in the elderly or those with reduced renal reserve.<br><br>
+                    <strong>Methadone + QTc-prolonging drugs:</strong> Additive risk of Torsades de Pointes. Check and monitor ECG regularly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Back to top -->
+<button class="btt" id="btt" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+    // ── Sidebar toggle with Body Scroll Lock ──
+    function toggleSidebar(forceClose = false) {
+        const sb = document.getElementById('sidebar');
+        const btn = document.getElementById('mob-menu');
+        const overlay = document.getElementById('overlay');
+        
+        const open = forceClose ? false : sb.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+        overlay.classList.toggle('active', open);
+        document.body.style.overflow = open ? 'hidden' : '';
+    }
+
+    // ── Scroll spy (using IntersectionObserver for performance) ──
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const btt = document.getElementById('btt');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const id = entry.target.getAttribute('id');
+                navLinks.forEach(a => {
+                    a.classList.toggle('active', a.getAttribute('href') === '#' + id);
+                });
+            }
+        });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+
+    sections.forEach(sec => observer.observe(sec));
+
+    // Back to top visibility
+    window.addEventListener('scroll', () => {
+        btt.classList.toggle('show', window.scrollY > 350);
+    }, { passive: true });
+
+    btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Close sidebar on link click (mobile)
+    navLinks.forEach(a => {
+        a.addEventListener('click', () => {
+            if (window.innerWidth <= 860) {
+                toggleSidebar(false);
+            }
+        });
+    });
+
+    // ── Search filter with category label hiding ──
+    const navLabel = document.getElementById('nav-label');
+    document.getElementById('nav-search').addEventListener('input', e => {
+        const q = e.target.value.toLowerCase();
+        let visibleCount = 0;
+        navLinks.forEach(a => {
+            const isVisible = a.textContent.toLowerCase().includes(q);
+            a.parentElement.style.display = isVisible ? '' : 'none';
+            if (isVisible) visibleCount++;
+        });
+        navLabel.style.display = visibleCount > 0 ? '' : 'none';
+    });
+
+    // ── Auto-Apply Dose Route Colors ──
+    // Color logic: Red for Max, Blue for IV, Amber for IM/SC, Teal for TD/PR, Purple for PO
+    document.querySelectorAll('.dose').forEach(el => {
+        const text = el.textContent.toLowerCase();
+        const prevText = el.previousSibling && el.previousSibling.nodeType === 3 ? el.previousSibling.nodeValue.toLowerCase() : '';
+        
+        if (text.includes('/day') || prevText.includes('max') || text.includes('maximum') || text.includes('not to exceed')) {
+            el.classList.add('dose-max');
+        } else if (/\biv\b/.test(text) || text.includes('intravenous') || text.includes('intranasal')) {
+            el.classList.add('dose-iv');
+        } else if (/\bim\b/.test(text) || /\bsc\b/.test(text) || text.includes('intramuscular')) {
+            el.classList.add('dose-inj');
+        } else if (/\btd\b/.test(text) || text.includes('patch') || /\bpr\b/.test(text)) {
+            el.classList.add('dose-td');
+        } else if (/\bpo\b/.test(text) || text.includes('oral') || /\bsl\b/.test(text) || text.includes('nocte') || text.includes('od') || text.includes('bid') || text.includes('tid') || text.includes('qid')) {
+            el.classList.add('dose-po');
+        } else {
+            el.classList.add('dose-default');
+        }
+    });
+
+    // ── Theme Toggle with Dynamic ARIA Labels ──
+    const html = document.documentElement;
+
+    function applyTheme(t) {
+        if (t === 'dark') {
+            html.setAttribute('data-theme', 'dark');
+            document.querySelectorAll('#desk-theme, #mob-theme').forEach(b => {
+                b.innerHTML = '<i class="fas fa-sun"></i>';
+                b.setAttribute('aria-label', 'Switch to light mode');
+            });
+        } else {
+            html.removeAttribute('data-theme');
+            document.querySelectorAll('#desk-theme, #mob-theme').forEach(b => {
+                b.innerHTML = '<i class="fas fa-moon"></i>';
+                b.setAttribute('aria-label', 'Switch to dark mode');
+            });
+        }
+    }
+
+    function toggleTheme() {
+        const t = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        applyTheme(t);
+        try { localStorage.setItem('theme', t); } catch(e) {}
+    }
+
+    const saved = (() => { try { return localStorage.getItem('theme'); } catch(e) { return null; } })();
+    applyTheme(saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+
+    document.getElementById('desk-theme').addEventListener('click', toggleTheme);
+    document.getElementById('mob-theme').addEventListener('click', toggleTheme);
+</script>
+</body>
+</html>
